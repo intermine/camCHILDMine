@@ -1,4 +1,4 @@
-rootProject.name = 'ithriveminer'
+rootProject.name = 'camCHILDMine'
 
 include ':dbmodel',':webapp'
 

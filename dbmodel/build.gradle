@@ -23,7 +23,7 @@ dependencies {
 }
 
 dbModelConfig {
-    mineName = "ithriveminer"
+    mineName = "camCHILDMine"
     objectStoreName = "os.production"
     modelName = "genomic"
     defaultInterminePropertiesFile = "default.intermine.production.properties"
