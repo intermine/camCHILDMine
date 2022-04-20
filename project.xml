@@ -2,7 +2,143 @@
   <property name="target.model" value="genomic"/>
   <property name="common.os.prefix" value="common"/>
   <sources>
+  
+<source name="risk-factors" type="delimited">
+  <property name="delimited.dataSourceName" value="Risk Factors Definitions"/>
+  <property name="delimited.dataSetTitle" value="Risk Factors Definition Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="RiskFactorDefinition.domain,
+  RiskFactorDefinition.level,
+  RiskFactorDefinition.riskFactor,
+  RiskFactorDefinition.additionalInfo,
+  RiskFactorDefinition.underservedPopulation,
+  RiskFactorDefinition.type" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="rf_def.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
 
+<source name="patient" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth patient Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="Patient.identifier,
+  Patient.gender,
+  Patient.ethnicity,
+  Patient.site" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="patient.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="referral" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth referral Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="Referral.identifier,
+  Referral.dischargeReason,
+  Referral.patientAge,
+  Referral.outcome,
+  Referral.source,
+  Referral.ICD10diagnosis,
+  Referral.referralTeam,
+  Referral.urgency,
+  Referral.locality,
+  Referral.cumulativeCAMHS" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="referral.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="clinicaloutcome" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth referral Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="ClinicalOutcome.episodeId,
+  ClinicalOutcome.score,
+  ClinicalOutcome.cgasScore,
+  ClinicalOutcome.assName,
+  ClinicalOutcome.firstOrLast,
+  ClinicalOutcome.rawScore,
+  ClinicalOutcome.ratingType,
+  ClinicalOutcome.fiscalYear,
+  ClinicalOutcome.ageAtAssessment,
+  ClinicalOutcome.note,
+  ClinicalOutcome.snomed,
+  ClinicalOutcome.scale,
+  ClinicalOutcome.grade" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="clinicaloutcome.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="contact" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth contact Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="Contact.identifier,
+  Contact.contactType,
+  Contact.contactOutcome,
+  Contact.attendance,
+  Contact.teamTier,
+  Contact.urgency,
+  Contact.ordinal,
+  Contact.team" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="contact.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="additionaldata" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth additional data Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="AdditionalData.name,
+  AdditionalData.value" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="additionaldata.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="diagnostic" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth diagnostic Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="Diagnostic.measure,
+  Diagnostic.measureType,
+  Diagnostic.observation,
+  Diagnostic.value" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="diagnostic.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="cumulativecontactdata" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth cumulative contact data Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="CumulativeContactData.name,
+  CumulativeContactData.value" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="cumulativecontactdata.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
 
 
   </sources>
