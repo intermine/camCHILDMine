@@ -1,26 +1,124 @@
 <?xml version="1.0"?>
-<!-- temporary camCHILD model to be used to load synth data -->
+<!-- camCHILD model to be used to load synth data -->
 
 <classes>
-<!-- add any <class> elements here -->
+<!-- rudolf's ithrive -->
+
+    <class name="Contact" is-interface="true">
+        <attribute name="contactDate" type="java.util.Date"/>
+        <attribute name="contactDateTime" type="java.util.Date"/>
+        <attribute name="team" type="java.lang.String"/>
+        <attribute name="contactType" type="java.lang.String"/>
+        <attribute name="urgency" type="java.lang.String"/>
+        <attribute name="urgencyRaw" type="java.lang.String"/>
+        <attribute name="clinicianJobTitle" type="java.lang.String"/>
+        <attribute name="outcome" type="java.lang.String"/>
+        <attribute name="contactWhether" type="java.lang.String"/>
+        <attribute name="contactHow" type="java.lang.String"/>
+        <attribute name="patientAttended" type="java.lang.Boolean"/>
+        <attribute name="carerAttended" type="java.lang.Boolean"/>
+        <attribute name="cancelledByClinician" type="java.lang.Boolean"/>
+        <attribute name="cancelledByPatient" type="java.lang.Boolean"/>
+        <attribute name="wasFaceToFace" type="java.lang.Boolean"/>
+        <attribute name="wasTriage" type="java.lang.Boolean"/>
+        <attribute name="wasInitialAssessment" type="java.lang.Boolean"/>
+        <attribute name="wasTreatment" type="java.lang.Boolean"/>
+        <attribute name="wasDischarge" type="java.lang.Boolean"/>
+        <reference name="referral" referenced-type="Referral" reverse-reference="contacts"/>
+    </class>
+
+    <class name="CurrentView" is-interface="true">
+        <attribute name="assessmentDate" type="java.util.Date"/>
+        <attribute name="anxiousAwayFromCaregivers" type="java.lang.Boolean"/>
+        <attribute name="anxiousInSocialSituations" type="java.lang.Boolean"/>
+        <attribute name="anxiousGenerally" type="java.lang.Boolean"/>
+        <attribute name="compelledToDoOrThinkThings" type="java.lang.Boolean"/>
+        <attribute name="panics" type="java.lang.Boolean"/>
+        <attribute name="avoidsGoingOut" type="java.lang.Boolean"/>
+        <attribute name="avoidsSpecificThings" type="java.lang.Boolean"/>
+        <attribute name="repetitiveProblematicBehaviours" type="java.lang.Boolean"/>
+        <attribute name="depressionLowMood" type="java.lang.Boolean"/>
+        <attribute name="selfHarm" type="java.lang.Boolean"/>
+        <attribute name="extremesOfMood" type="java.lang.Boolean"/>
+        <attribute name="delusionalBeliefsAndHallucinations" type="java.lang.Boolean"/>
+        <attribute name="drugAndAlcoholDifficulties" type="java.lang.Boolean"/>
+        <attribute name="difficultiesSittingStillOrConcentrating" type="java.lang.Boolean"/>
+        <attribute name="behaviouralDifficulties" type="java.lang.Boolean"/>
+        <attribute name="posesRiskToOthers" type="java.lang.Boolean"/>
+        <attribute name="carerManagementOfCypBehaviour" type="java.lang.Boolean"/>
+        <attribute name="doesNotGetToToiletInTime" type="java.lang.Boolean"/>
+        <attribute name="disturbedByTraumaticEvent" type="java.lang.Boolean"/>
+        <attribute name="eatingIssues" type="java.lang.Boolean"/>
+        <attribute name="familyRelationshipDifficulties" type="java.lang.Boolean"/>
+        <attribute name="problemsInAttachmentToParentCarer" type="java.lang.Boolean"/>
+        <attribute name="peerRelationshipDifficulties" type="java.lang.Boolean"/>
+        <attribute name="persistentDifficultiesManagingRelationships" type="java.lang.Boolean"/>
+        <attribute name="doesNotSpeak" type="java.lang.Boolean"/>
+        <attribute name="genderDiscomfortIssues" type="java.lang.Boolean"/>
+        <attribute name="unexplainedPhysicalSymptoms" type="java.lang.Boolean"/>
+        <attribute name="unexplainedDevelopmentalDifficulties" type="java.lang.Boolean"/>
+        <attribute name="selfCareIssues" type="java.lang.Boolean"/>
+        <attribute name="adjustmentToHealthIssues" type="java.lang.Boolean"/>
+        <attribute name="lookedAfterChild" type="java.lang.Boolean"/>
+        <attribute name="youngCarerStatus" type="java.lang.Boolean"/>
+        <attribute name="learningDisability" type="java.lang.Boolean"/>
+        <attribute name="seriousPhysicalHealthIssues" type="java.lang.Boolean"/>
+        <attribute name="pervasiveDevelopmentalDisorders" type="java.lang.Boolean"/>
+        <attribute name="neurologicalIssues" type="java.lang.Boolean"/>
+        <attribute name="currentProtectionPlan" type="java.lang.Boolean"/>
+        <attribute name="childInNeed" type="java.lang.Boolean"/>
+        <attribute name="refugeeOrAsylumSeeker" type="java.lang.Boolean"/>
+        <attribute name="experienceOfWarTortureOrTrafficking" type="java.lang.Boolean"/>
+        <attribute name="experienceOfAbuseOrNeglect" type="java.lang.Boolean"/>
+        <attribute name="parentalHealthIssues" type="java.lang.Boolean"/>
+        <attribute name="contactWithYouthJusticeSystem" type="java.lang.Boolean"/>
+        <attribute name="livingInFinancialDifficulty" type="java.lang.Boolean"/>
+        <attribute name="home" type="java.lang.Boolean"/>
+        <attribute name="schoolWorkOrTraining" type="java.lang.Boolean"/>
+        <attribute name="community" type="java.lang.Boolean"/>
+        <attribute name="serviceEngagement" type="java.lang.Boolean"/>
+        <attribute name="attendanceDifficulties" type="java.lang.Boolean"/>
+        <attribute name="attainmentDifficulties" type="java.lang.Boolean"/>
+        <reference name="patient" referenced-type="Patient"  reverse-reference="synopsis"/>
+        <reference name="referral" referenced-type="Referral"  reverse-reference="synopsis"/>
+    </class>
+
+    <class name="DataSet" is-interface="true">
+        <attribute name="type" type="java.lang.String"/>
+    </class>
+
+    <class name="Diagnosis" is-interface="true">
+        <attribute name="system" type="java.lang.String"/>
+        <attribute name="code" type="java.lang.String"/>
+        <attribute name="startDate" type="java.util.Date"/>
+        <attribute name="endDate" type="java.util.Date"/>
+        <attribute name="financialYearStartDate" type="java.util.Date"/>
+        <reference name="patient" referenced-type="Patient" reverse-reference="diagnosis"/>
+        <reference name="referral" referenced-type="Referral" reverse-reference="diagnosis"/>
+    </class>
 
     <class name="Ethnicity" is-interface="true">
         <attribute name="nhsCode" type="java.lang.String"/>
         <attribute name="description" type="java.lang.String"/>
-        <collection name="patients" referenced-type="Patient"
-                    reverse-reference="ethnicity"/>
+        <collection name="patients" referenced-type="Patient" reverse-reference="ethnicity"/>
     </class>
 
-    <class name="Site" is-interface="true">
-        <attribute name="shortName" type="java.lang.String"/>
-        <attribute name="name" type="java.lang.String"/>
-        <attribute name="periodStartDate" type="java.util.Date"/>
-        <attribute name="periodEndDate" type="java.util.Date"/>
-        <attribute name="isIThriveSite" type="java.lang.Boolean"/>
-        <collection name="patients" referenced-type="Patient"
-                    reverse-reference="site"/>
+    <class name="GenericOutcomeValue" is-interface="true">
+        <attribute name="identifier" type="java.lang.Integer"/>
+        <attribute name="measurementDate" type="java.util.Date"/>
+        <attribute name="isFirstOfFinancialYearStarting" type="java.util.Date"/>
+        <attribute name="isLastOfFinancialYearStarting" type="java.util.Date"/>
+        <attribute name="valueInt" type="java.lang.Integer"/>
+        <attribute name="valueDecimal" type="java.lang.Double"/>
+        <attribute name="valueString" type="java.lang.String"/>
+        <attribute name="completedBy" type="java.lang.String"/>
+        <attribute name="note" type="java.lang.String"/>
+        <reference name="patient" referenced-type="Patient"
+                   reverse-reference="outcomeValues"/>
+        <reference name="referral" referenced-type="Referral" />
+        <reference name="variable" referenced-type="GenericOutcomeVariable"
+                   reverse-reference="values"/>
     </class>
-
 
     <class name="GenericOutcomeVariable" is-interface="true">
         <attribute name="assessmentTitle" type="java.lang.String"/>
@@ -30,11 +128,9 @@
         <attribute name="valueIsInt" type="java.lang.Boolean"/>
         <attribute name="valueIsDecimal" type="java.lang.Boolean"/>
         <attribute name="valueIsString" type="java.lang.Boolean"/>
-
         <collection name="values" referenced-type="GenericOutcomeValue"
                     reverse-reference="variable"/>
     </class>
-
 
     <class name="Patient" is-interface="true">
         <attribute name="idWithinSite" type="java.lang.String"/>
@@ -46,29 +142,25 @@
         <attribute name="earliestDateOfBirth" type="java.util.Date"/>
         <attribute name="latestDateOfBirth" type="java.util.Date"/>
         <attribute name="approxDateOfBirth" type="java.util.Date"/>
-
-        <reference name="site" referenced-type="Site"
-                   reverse-reference="patients"/>
-        <reference name="ethnicity" referenced-type="Ethnicity"
-                   reverse-reference="patients"/>
-        <reference name="synopsis" referenced-type="CurrentView"
-                   reverse-reference="patient"/>
-        <collection name="referrals" referenced-type="Referral"
-                    reverse-reference="patient"/>
+        <reference name="site" referenced-type="Site" reverse-reference="patients"/>
+        <reference name="ethnicity" referenced-type="Ethnicity" reverse-reference="patients"/>
+        <reference name="synopsis" referenced-type="CurrentView" reverse-reference="patient"/>
+        <collection name="referrals" referenced-type="Referral" reverse-reference="patient"/>
+        <collection name="diagnosis" referenced-type="Diagnosis" reverse-reference="patient"/>
         <collection name="outcomeValues" referenced-type="GenericOutcomeValue"
-                    reverse-reference="patient"/>
-        <collection name="diagnosis" referenced-type="Diagnostic"
                     reverse-reference="patient"/>
         <!--
                 <reference name="dataSet" referenced-type="DataSet"
                            reverse-reference="patients"/>
                 <collection name="contacts" referenced-type="Contact"
                             reverse-reference="patient" />
-                <collection name="diagnosis" referenced-type="Diagnostic"
-                            reverse-reference="patient" />
             -->
     </class>
 
+    <class name="Problem" is-interface="true">
+        <attribute name="problem" type="java.lang.String"/>
+        <reference name="referral" referenced-type="Referral" reverse-reference="problems"/>
+    </class>
 
     <class name="Referral" is-interface="true">
         <attribute name="idWithinSite" type="java.lang.String"/>
@@ -100,152 +192,26 @@
         <attribute name="dischargeDate" type="java.util.Date"/>
         <attribute name="dischargeDestination" type="java.lang.String"/>
         <attribute name="dischargeReason" type="java.lang.String"/>
-
         <reference name="patient" referenced-type="Patient" reverse-reference="referrals"/>
         <reference name="synopsis" referenced-type="CurrentView" reverse-reference="referral"/>
-
-        <collection name="contacts" referenced-type="Contact"
-                    reverse-reference="referral"/>
-        <collection name="diagnosis" referenced-type="Diagnosis"
-                    reverse-reference="referral"/>
-        <collection name="problems" referenced-type="Problem"
-                    reverse-reference="referral"/>
+        <collection name="contacts" referenced-type="Contact" reverse-reference="referral"/>
+        <collection name="diagnosis" referenced-type="Diagnosis" reverse-reference="referral"/>
+        <collection name="problems" referenced-type="Problem" reverse-reference="referral"/>
         <collection name="outcomeValues" referenced-type="GenericOutcomeValue"
                     reverse-reference="referral"/>
     </class>
 
-    <class name="Contact" is-interface="true">
-        <attribute name="contactDate" type="java.util.Date"/>
-        <attribute name="contactDateTime" type="java.util.Date"/>
-        <attribute name="team" type="java.lang.String"/>
-        <attribute name="contactType" type="java.lang.String"/>
-        <attribute name="urgency" type="java.lang.String"/>
-        <attribute name="urgencyRaw" type="java.lang.String"/>
-        <attribute name="clinicianJobTitle" type="java.lang.String"/>
-        <attribute name="outcome" type="java.lang.String"/>
-        <attribute name="contactWhether" type="java.lang.String"/>
-        <attribute name="contactHow" type="java.lang.String"/>
-        <attribute name="patientAttended" type="java.lang.Boolean"/>
-        <attribute name="carerAttended" type="java.lang.Boolean"/>
-        <attribute name="cancelledByClinician" type="java.lang.Boolean"/>
-        <attribute name="cancelledByPatient" type="java.lang.Boolean"/>
-        <attribute name="wasFaceToFace" type="java.lang.Boolean"/>
-        <attribute name="wasTriage" type="java.lang.Boolean"/>
-        <attribute name="wasInitialAssessment" type="java.lang.Boolean"/>
-        <attribute name="wasTreatment" type="java.lang.Boolean"/>
-        <attribute name="wasDischarge" type="java.lang.Boolean"/>
-
-        <reference name="referral" referenced-type="Referral"
-                   reverse-reference="contacts"/>
+    <class name="Site" is-interface="true">
+        <attribute name="shortName" type="java.lang.String"/>
+        <attribute name="name" type="java.lang.String"/>
+        <attribute name="periodStartDate" type="java.util.Date"/>
+        <attribute name="periodEndDate" type="java.util.Date"/>
+        <attribute name="isIThriveSite" type="java.lang.Boolean"/>
+        <collection name="patients" referenced-type="Patient" reverse-reference="site"/>
     </class>
-
-    <class name="Problem" is-interface="true">
-        <attribute name="problem" type="java.lang.String"/>
-        <reference name="referral" referenced-type="Referral"
-                   reverse-reference="problems"/>
-    </class>
-
-    <class name="Diagnosis" is-interface="true">
-        <attribute name="system" type="java.lang.String"/>
-        <attribute name="code" type="java.lang.String"/>
-        <attribute name="startDate" type="java.util.Date"/>
-        <attribute name="endDate" type="java.util.Date"/>
-        <attribute name="financialYearStartDate" type="java.util.Date"/>
-        <reference name="patient" referenced-type="Patient"
-                   reverse-reference="diagnosis"/>
-        <reference name="referral" referenced-type="Referral"
-                   reverse-reference="diagnosis"/>
-    </class>
-
-
-    <class name="GenericOutcomeValue" is-interface="true">
-        <attribute name="identifier" type="java.lang.Integer"/>
-        <attribute name="measurementDate" type="java.util.Date"/>
-        <attribute name="isFirstOfFinancialYearStarting" type="java.util.Date"/>
-        <attribute name="isLastOfFinancialYearStarting" type="java.util.Date"/>
-        <attribute name="valueInt" type="java.lang.Integer"/>
-        <attribute name="valueDecimal" type="java.lang.Double"/>
-        <attribute name="valueString" type="java.lang.String"/>
-        <attribute name="completedBy" type="java.lang.String"/>
-        <attribute name="note" type="java.lang.String"/>
-
-        <reference name="patient" referenced-type="Patient"
-                   reverse-reference="outcomeValues"/>
-        <reference name="referral" referenced-type="Referral" />
-        <reference name="variable" referenced-type="GenericOutcomeVariable"
-                   reverse-reference="values"/>
-    </class>
-
-    <class name="CurrentView" is-interface="true">
-        <attribute name="contactHow" type="java.lang.String"/>
-
-        <attribute name="assessmentDate" type="java.util.Date"/>
-        <attribute name="anxiousAwayFromCaregivers" type="java.lang.Boolean"/>
-        <attribute name="anxiousInSocialSituations" type="java.lang.Boolean"/>
-        <attribute name="anxiousGenerally" type="java.lang.Boolean"/>
-        <attribute name="compelledToDoOrThinkThings" type="java.lang.Boolean"/>
-        <attribute name="panics" type="java.lang.Boolean"/>
-        <attribute name="avoidsGoingOut" type="java.lang.Boolean"/>
-        <attribute name="avoidsSpecificThings" type="java.lang.Boolean"/>
-        <attribute name="repetitiveProblematicBehaviours" type="java.lang.Boolean"/>,
-        <attribute name="depressionLowMood" type="java.lang.Boolean"/>,
-        <attribute name="selfHarm" type="java.lang.Boolean"/>,
-        <attribute name="extremesOfMood" type="java.lang.Boolean"/>,
-        <attribute name="delusionalBeliefsAndHallucinations" type="java.lang.Boolean"/>,
-        <attribute name="drugAndAlcoholDifficulties" type="java.lang.Boolean"/>,
-        <attribute name="difficultiesSittingStillOrConcentrating" type="java.lang.Boolean"/>,
-        <attribute name="behaviouralDifficulties" type="java.lang.Boolean"/>,
-        <attribute name="posesRiskToOthers" type="java.lang.Boolean"/>,
-        <attribute name="carerManagementOfCypBehaviour" type="java.lang.Boolean"/>,
-        <attribute name="doesNotGetToToiletInTime" type="java.lang.Boolean"/>,
-        <attribute name="disturbedByTraumaticEvent" type="java.lang.Boolean"/>,
-        <attribute name="eatingIssues" type="java.lang.Boolean"/>,
-        <attribute name="familyRelationshipDifficulties" type="java.lang.Boolean"/>,
-        <attribute name="problemsInAttachmentToParentCarer" type="java.lang.Boolean"/>,
-        <attribute name="peerRelationshipDifficulties" type="java.lang.Boolean"/>,
-        <attribute name="persistentDifficultiesManagingRelationships" type="java.lang.Boolean"/>,
-        <attribute name="doesNotSpeak" type="java.lang.Boolean"/>,
-        <attribute name="genderDiscomfortIssues" type="java.lang.Boolean"/>,
-        <attribute name="unexplainedPhysicalSymptoms" type="java.lang.Boolean"/>,
-        <attribute name="unexplainedDevelopmentalDifficulties" type="java.lang.Boolean"/>,
-        <attribute name="selfCareIssues" type="java.lang.Boolean"/>,
-        <attribute name="adjustmentToHealthIssues" type="java.lang.Boolean"/>,
-        <attribute name="lookedAfterChild" type="java.lang.Boolean"/>,
-        <attribute name="youngCarerStatus" type="java.lang.Boolean"/>,
-        <attribute name="learningDisability" type="java.lang.Boolean"/>,
-        <attribute name="seriousPhysicalHealthIssues" type="java.lang.Boolean"/>,
-        <attribute name="pervasiveDevelopmentalDisorders" type="java.lang.Boolean"/>,
-        <attribute name="neurologicalIssues" type="java.lang.Boolean"/>,
-        <attribute name="currentProtectionPlan" type="java.lang.Boolean"/>,
-        <attribute name="childInNeed" type="java.lang.Boolean"/>,
-        <attribute name="refugeeOrAsylumSeeker" type="java.lang.Boolean"/>,
-        <attribute name="experienceOfWarTortureOrTrafficking" type="java.lang.Boolean"/>,
-        <attribute name="experienceOfAbuseOrNeglect" type="java.lang.Boolean"/>,
-        <attribute name="parentalHealthIssues" type="java.lang.Boolean"/>,
-        <attribute name="contactWithYouthJusticeSystem" type="java.lang.Boolean"/>,
-        <attribute name="livingInFinancialDifficulty" type="java.lang.Boolean"/>,
-        <attribute name="home" type="java.lang.Boolean"/>,
-        <attribute name="schoolWorkOrTraining" type="java.lang.Boolean"/>,
-        <attribute name="community" type="java.lang.Boolean"/>,
-        <attribute name="serviceEngagement" type="java.lang.Boolean"/>,
-        <attribute name="attendanceDifficulties" type="java.lang.Boolean"/>,
-        <attribute name="attainmentDifficulties" type="java.lang.Boolean"/>,
-
-        <reference name="patient" referenced-type="Patient"
-                   reverse-reference="synopsis"/>
-        <reference name="referral" referenced-type="Referral"
-                   reverse-reference="synopsis"/>
-    </class>
-
-
-    <class name="DataSet" is-interface="true">
-        <attribute name="type" type="java.lang.String"/>
-    </class>
-
 
 
     <!-- risk factors -->
-
     <class name="RiskFactorDefinition" is-interface="true">
         <attribute name="riskFactor" type="java.lang.String" />
         <attribute name="domain" type="java.lang.String" />
@@ -253,10 +219,6 @@
         <attribute name="type" type="java.lang.String" />
         <attribute name="additionalInfo" type="java.lang.String" />
         <attribute name="underservedPopulation" type="java.lang.Boolean" />
-        <!--
-               <collection name="patients" referenced-type="Patient"
-                            reverse-reference="riskFactorDefinitions" />
-                                           -->
     </class>
 
     <class name="RiskFactor" is-interface="true">
