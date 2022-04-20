@@ -36,5 +36,5 @@ dbModelConfig {
 mineDBModelConfig {
     modelName = "genomic"
     extraModelsStart = "so_additions.xml genomic_additions.xml global_additions.xml"
-    extraModelsEnd = ""
+    extraModelsEnd = "camCHILD_additions.xml"
 }
