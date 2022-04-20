@@ -16,13 +16,13 @@
         <attribute name="name" type="java.lang.String"/>
         <attribute name="periodStartDate" type="java.util.Date"/>
         <attribute name="periodEndDate" type="java.util.Date"/>
+        <attribute name="isIThriveSite" type="java.lang.Boolean"/>
         <collection name="patients" referenced-type="Patient"
                     reverse-reference="site"/>
     </class>
 
 
     <class name="GenericOutcomeVariable" is-interface="true">
-        <!-- <attribute name="identifier" type="java.lang.String" /> -->
         <attribute name="assessmentTitle" type="java.lang.String"/>
         <attribute name="variableTitle" type="java.lang.String"/>
         <attribute name="snomedCode" type="java.lang.Integer"/>
@@ -57,14 +57,14 @@
                     reverse-reference="patient"/>
         <collection name="outcomeValues" referenced-type="GenericOutcomeValue"
                     reverse-reference="patient"/>
-        <collection name="diagnostics" referenced-type="Diagnostic"
+        <collection name="diagnosis" referenced-type="Diagnostic"
                     reverse-reference="patient"/>
         <!--
                 <reference name="dataSet" referenced-type="DataSet"
                            reverse-reference="patients"/>
                 <collection name="contacts" referenced-type="Contact"
                             reverse-reference="patient" />
-                <collection name="diagnostics" referenced-type="Diagnostic"
+                <collection name="diagnosis" referenced-type="Diagnostic"
                             reverse-reference="patient" />
             -->
     </class>
@@ -106,16 +106,12 @@
 
         <collection name="contacts" referenced-type="Contact"
                     reverse-reference="referral"/>
-        <collection name="diagnostics" referenced-type="Diagnostic"
+        <collection name="diagnosis" referenced-type="Diagnosis"
                     reverse-reference="referral"/>
         <collection name="problems" referenced-type="Problem"
                     reverse-reference="referral"/>
         <collection name="outcomeValues" referenced-type="GenericOutcomeValue"
                     reverse-reference="referral"/>
-        <!--
-        <collection name="diagnostics" referenced-type="Diagnostic"
-                    reverse-reference="referral" />
-                    -->
     </class>
 
     <class name="Contact" is-interface="true">
@@ -127,7 +123,7 @@
         <attribute name="urgencyRaw" type="java.lang.String"/>
         <attribute name="clinicianJobTitle" type="java.lang.String"/>
         <attribute name="outcome" type="java.lang.String"/>
-        <attribute name="contactWheter" type="java.lang.String"/>
+        <attribute name="contactWhether" type="java.lang.String"/>
         <attribute name="contactHow" type="java.lang.String"/>
         <attribute name="patientAttended" type="java.lang.Boolean"/>
         <attribute name="carerAttended" type="java.lang.Boolean"/>
@@ -149,16 +145,16 @@
                    reverse-reference="problems"/>
     </class>
 
-    <class name="Diagnostic" is-interface="true">
+    <class name="Diagnosis" is-interface="true">
         <attribute name="system" type="java.lang.String"/>
         <attribute name="code" type="java.lang.String"/>
         <attribute name="startDate" type="java.util.Date"/>
         <attribute name="endDate" type="java.util.Date"/>
         <attribute name="financialYearStartDate" type="java.util.Date"/>
         <reference name="patient" referenced-type="Patient"
-                   reverse-reference="diagnostics"/>
+                   reverse-reference="diagnosis"/>
         <reference name="referral" referenced-type="Referral"
-                   reverse-reference="diagnostics"/>
+                   reverse-reference="diagnosis"/>
     </class>
 
 
@@ -183,6 +179,7 @@
     <class name="CurrentView" is-interface="true">
         <attribute name="contactHow" type="java.lang.String"/>
 
+        <attribute name="assessmentDate" type="java.util.Date"/>
         <attribute name="anxiousAwayFromCaregivers" type="java.lang.Boolean"/>
         <attribute name="anxiousInSocialSituations" type="java.lang.Boolean"/>
         <attribute name="anxiousGenerally" type="java.lang.Boolean"/>
