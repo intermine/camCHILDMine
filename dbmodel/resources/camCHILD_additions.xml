@@ -135,7 +135,7 @@
     <class name="Patient" is-interface="true">
         <attribute name="idWithinSite" type="java.lang.String"/>
         <attribute name="hashedIdWithinSite" type="java.lang.String"/>
-        <attribute name="ethnicity" type="java.lang.String"/>
+        <attribute name="ethnicityCode" type="java.lang.String"/>
         <attribute name="gender" type="java.lang.String"/>
         <attribute name="genderMismatch" type="java.lang.String"/>
         <attribute name="lifetimeCamhsReferrals" type="java.lang.Integer"/>
@@ -148,6 +148,8 @@
         <collection name="referrals" referenced-type="Referral" reverse-reference="patient"/>
         <collection name="diagnosis" referenced-type="Diagnosis" reverse-reference="patient"/>
         <collection name="outcomeValues" referenced-type="GenericOutcomeValue"
+                    reverse-reference="patient"/>
+        <collection name="riskFactors" referenced-type="RiskFactor"
                     reverse-reference="patient"/>
         <!--
                 <reference name="dataSet" referenced-type="DataSet"
