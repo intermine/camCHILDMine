@@ -16,7 +16,7 @@
   RiskFactorDefinition.underservedPopulation,
   RiskFactorDefinition.type" />
   <property name="delimited.separator" value="comma"/>
-  <property name="delimited.includes" value="rf_def.csv"/>
+  <property name="delimited.includes" value="rfdef.csv"/>
   <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
 </source>
 
@@ -150,8 +150,7 @@
       <property name="delimited.licence" value="http//usemydatalicence.com"/>
       <property name="delimited.hasHeader" value="true"/>
       <property name="delimited.columns"
-                value="GenericOutcomeValue.identifier,
-                GenericOutcomeValue.measurementDate,
+                value="GenericOutcomeValue.measurementDate,
                 GenericOutcomeValue.isFirstOfFinancialYearStarting,
                 GenericOutcomeValue.isLastOfFinancialYearStarting,
                 GenericOutcomeValue.valueInt,
@@ -166,11 +165,12 @@
 
     <source name="site" type="delimited">
       <property name="delimited.dataSourceName" value="syntethic iThrive"/>
-      <property name="delimited.dataSetTitle" value="synth site data Set"/>
+      <property name="delimited.dataSetTitle" value="site data Set"/>
       <property name="delimited.licence" value="http//usemydatalicence.com"/>
       <property name="delimited.hasHeader" value="true"/>
       <property name="delimited.columns"
-                value="Site.shortName,
+                value="Site.identifier,
+                Site.shortName,
                 Site.name,
                 Site.periodStartDate,
                 Site.periodEndDate,
@@ -180,6 +180,31 @@
       <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
     </source>
 
+    <source name="ethnicity" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="ethnicity data Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Ethnicity.nhsCode,
+                Ethnicity.description" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="ethnicity.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+
+    <source name="problem" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="synt problem data Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Problem.problem" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="problem.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
 
 
     <source name="currentview" type="delimited">
