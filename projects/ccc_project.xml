@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<sources>
+  <source name="ADDRESS_HIST_DIM" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="ADDRESS_HIST_DIM.csv"/>
+    <property name="delimited.colums" value ="ADDRESS_HIST_DIM.ADDRESS_END_DATE, 
+ ADDRESS_HIST_DIM.ADDRESS_ID, 
+ ADDRESS_HIST_DIM.ADDRESS_START_DATE, 
+ ADDRESS_HIST_DIM.ADDRESS_TYPE, 
+ ADDRESS_HIST_DIM.LSOA, 
+ ADDRESS_HIST_DIM.ORGANISATION, 
+ ADDRESS_HIST_DIM.rid, 
+ ADDRESS_HIST_DIM.trid, 
+ ADDRESS_HIST_DIM.nhshash, 
+ ADDRESS_HIST_DIM._when_processed_utc"/>
+  </source>
+  <source name="ASSESSMENT_FORM_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="ASSESSMENT_FORM_FACT.csv"/>
+    <property name="delimited.colums" value ="ASSESSMENT_FORM_FACT.ANSWER_ID, 
+ ASSESSMENT_FORM_FACT.COMPLETED_DATE, 
+ ASSESSMENT_FORM_FACT.COMPLETE_BY_DEPARTMENT, 
+ ASSESSMENT_FORM_FACT.FORM_DESCRIPTION, 
+ ASSESSMENT_FORM_FACT.FORM_ID, 
+ ASSESSMENT_FORM_FACT.FORM_MOST_RECENT_UPDATE, 
+ ASSESSMENT_FORM_FACT.FORM_TYPE_ID_CODE, 
+ ASSESSMENT_FORM_FACT.rid, 
+ ASSESSMENT_FORM_FACT.trid, 
+ ASSESSMENT_FORM_FACT.nhshash, 
+ ASSESSMENT_FORM_FACT.QUESTION, 
+ ASSESSMENT_FORM_FACT._when_processed_utc"/>
+  </source>
+  <source name="CATEGORY_OF_NEED_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="CATEGORY_OF_NEED_FACT.csv"/>
+    <property name="delimited.colums" value ="CATEGORY_OF_NEED_FACT.CATEGORY_OF_NEED, 
+ CATEGORY_OF_NEED_FACT.NEED_END_DATE, 
+ CATEGORY_OF_NEED_FACT.NEED_ID, 
+ CATEGORY_OF_NEED_FACT.NEED_START_DATE, 
+ CATEGORY_OF_NEED_FACT.rid, 
+ CATEGORY_OF_NEED_FACT.trid, 
+ CATEGORY_OF_NEED_FACT.nhshash, 
+ CATEGORY_OF_NEED_FACT.REFERRAL_ID, 
+ CATEGORY_OF_NEED_FACT._when_processed_utc"/>
+  </source>
+  <source name="CLA_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="CLA_FACT.csv"/>
+    <property name="delimited.colums" value ="CLA_FACT.CATEGORY_OF_NEED, 
+ CLA_FACT.CLA_CEASED_REASON, 
+ CLA_FACT.CLA_ID, 
+ CLA_FACT.CLA_REASON, 
+ CLA_FACT.DATE_BECAME_LOOKED_AFTER, 
+ CLA_FACT.DATE_CEASED_LOOKED_AFTER, 
+ CLA_FACT.LEGAL_STATUS, 
+ CLA_FACT.rid, 
+ CLA_FACT.trid, 
+ CLA_FACT.nhshash, 
+ CLA_FACT.REFERRAL_ID, 
+ CLA_FACT._when_processed_utc"/>
+  </source>
+  <source name="CONTACT_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="CONTACT_FACT.csv"/>
+    <property name="delimited.colums" value ="CONTACT_FACT.CNT_OUTCOME_ADVICE, 
+ CONTACT_FACT.CNT_OUTCOME_CP_ENQUIRY, 
+ CONTACT_FACT.CNT_OUTCOME_EXISTING_REFERRAL, 
+ CONTACT_FACT.CNT_OUTCOME_MISSING, 
+ CONTACT_FACT.CNT_OUTCOME_NEW_REFERRAL, 
+ CONTACT_FACT.CNT_OUTCOME_NFA, 
+ CONTACT_FACT.CNT_OUTCOME_NON_AGENCY_ADOPTION, 
+ CONTACT_FACT.CNT_OUTCOME_OTHER_LOCAL_AUTH_CP, 
+ CONTACT_FACT.CNT_OUTCOME_PRIVATE_FOSTERING, 
+ CONTACT_FACT.CONTACT_DATE, 
+ CONTACT_FACT.CONTACT_ID, 
+ CONTACT_FACT.CONTACT_REASON, 
+ CONTACT_FACT.CONTACT_SOURCE, 
+ CONTACT_FACT.DEPARTMENT, 
+ CONTACT_FACT.rid, 
+ CONTACT_FACT.trid, 
+ CONTACT_FACT.nhshash, 
+ CONTACT_FACT.REFERRAL_ID, 
+ CONTACT_FACT._when_processed_utc"/>
+  </source>
+  <source name="CP_PLAN_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="CP_PLAN_FACT.csv"/>
+    <property name="delimited.colums" value ="CP_PLAN_FACT.CP_CATEGORY_DESC, 
+ CP_PLAN_FACT.CP_CATEGORY_EMOTIONAL, 
+ CP_PLAN_FACT.CP_CATEGORY_NEGLECT, 
+ CP_PLAN_FACT.CP_CATEGORY_PHYSICAL, 
+ CP_PLAN_FACT.CP_CATEGORY_SEXUAL, 
+ CP_PLAN_FACT.CP_END_DATE, 
+ CP_PLAN_FACT.CP_PLAN_ID, 
+ CP_PLAN_FACT.CP_START_DATE, 
+ CP_PLAN_FACT.rid, 
+ CP_PLAN_FACT.trid, 
+ CP_PLAN_FACT.nhshash, 
+ CP_PLAN_FACT.REFERRAL_ID, 
+ CP_PLAN_FACT._when_processed_utc"/>
+  </source>
+  <source name="DISABILITY_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="DISABILITY_FACT.csv"/>
+    <property name="delimited.colums" value ="DISABILITY_FACT.DISABILITY_CODE, 
+ DISABILITY_FACT.DISABILITY_DESCRIPTION, 
+ DISABILITY_FACT.DISABILITY_ID, 
+ DISABILITY_FACT.DIS_END_DATE, 
+ DISABILITY_FACT.DIS_START_DATE, 
+ DISABILITY_FACT.HEALTH_CONDITION, 
+ DISABILITY_FACT.rid, 
+ DISABILITY_FACT.trid, 
+ DISABILITY_FACT.nhshash, 
+ DISABILITY_FACT._when_processed_utc"/>
+  </source>
+  <source name="EARLY_HELP_CONTACT_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="EARLY_HELP_CONTACT_FACT.csv"/>
+    <property name="delimited.colums" value ="EARLY_HELP_CONTACT_FACT.CONTACT_DATE, 
+ EARLY_HELP_CONTACT_FACT.CONTACT_SOURCE, 
+ EARLY_HELP_CONTACT_FACT.DEPARTMENT, 
+ EARLY_HELP_CONTACT_FACT.EHCNT_OUTCOME_EHCP, 
+ EARLY_HELP_CONTACT_FACT.EHCNT_OUTCOME_MASH, 
+ EARLY_HELP_CONTACT_FACT.EHCNT_OUTCOME_NFA, 
+ EARLY_HELP_CONTACT_FACT.EHNCT_OUTCOME_EHCP_TRANSFER, 
+ EARLY_HELP_CONTACT_FACT.EH_CONTACT_ID, 
+ EARLY_HELP_CONTACT_FACT.rid, 
+ EARLY_HELP_CONTACT_FACT.trid, 
+ EARLY_HELP_CONTACT_FACT.nhshash, 
+ EARLY_HELP_CONTACT_FACT._when_processed_utc"/>
+  </source>
+  <source name="LANGUAGE_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="LANGUAGE_FACT.csv"/>
+    <property name="delimited.colums" value ="LANGUAGE_FACT.LANGUAGE_CODE, 
+ LANGUAGE_FACT.LANGUAGE_DESC, 
+ LANGUAGE_FACT.LANGUAGE_ID, 
+ LANGUAGE_FACT.rid, 
+ LANGUAGE_FACT.trid, 
+ LANGUAGE_FACT.nhshash, 
+ LANGUAGE_FACT.PRIMARY_LANGUAGE, 
+ LANGUAGE_FACT._when_processed_utc"/>
+  </source>
+  <source name="PERSON_DIM" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="PERSON_DIM.csv"/>
+    <property name="delimited.colums" value ="PERSON_DIM.DATE_OF_DEATH, 
+ PERSON_DIM.DOB, 
+ PERSON_DIM.ETHNICITY_17_LEVEL, 
+ PERSON_DIM.ETHNICITY_CODE, 
+ PERSON_DIM.ETHNICITY_DESCRIPTION, 
+ PERSON_DIM.ETHNICITY_DFE_CODE, 
+ PERSON_DIM.GENDER, 
+ PERSON_DIM.IS_DISABLED, 
+ PERSON_DIM.NATIONALITY_CODE, 
+ PERSON_DIM.NATIONALITY_DESCRITPION, 
+ PERSON_DIM.nhshash, 
+ PERSON_DIM.rid, 
+ PERSON_DIM.trid, 
+ PERSON_DIM.RELIGION_CODE, 
+ PERSON_DIM.RELIGION_DESCRIPTION, 
+ PERSON_DIM._when_processed_utc"/>
+  </source>
+  <source name="REFERRAL_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="REFERRAL_FACT.csv"/>
+    <property name="delimited.colums" value ="REFERRAL_FACT.CONTACT_SOURCE, 
+ REFERRAL_FACT.rid, 
+ REFERRAL_FACT.trid, 
+ REFERRAL_FACT.nhshash, 
+ REFERRAL_FACT.PREVIOUS_REFERRAL_END, 
+ REFERRAL_FACT.PREVIOUS_REFERRAL_START, 
+ REFERRAL_FACT.REFERRAL_END_DATE, 
+ REFERRAL_FACT.REFERRAL_END_REASON, 
+ REFERRAL_FACT.REFERRAL_ID, 
+ REFERRAL_FACT.REFERRAL_START_DATE, 
+ REFERRAL_FACT.REFERRAL_TO_TEAM, 
+ REFERRAL_FACT.REF_OUTCOME_CARE_LEAVER, 
+ REFERRAL_FACT.REF_OUTCOME_CLA, 
+ REFERRAL_FACT.REF_OUTCOME_CP_CONFERENCE, 
+ REFERRAL_FACT.REF_OUTCOME_CP_TRANSFER_IN, 
+ REFERRAL_FACT.REF_OUTCOME_NFA, 
+ REFERRAL_FACT.REF_OUTCOME_NON_AGENCY_ADDOPTION, 
+ REFERRAL_FACT.REF_OUTCOME_PRIVATE_FOSTERING, 
+ REFERRAL_FACT.REF_OUTCOME_SINGLE_ASSESSMENT, 
+ REFERRAL_FACT.REF_OUTCOME_STRATEGY_DISCUSSION, 
+ REFERRAL_FACT.REREFERRAL_FLAG, 
+ REFERRAL_FACT._when_processed_utc"/>
+  </source>
+  <source name="S47_ENQUIRY_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="S47_ENQUIRY_FACT.csv"/>
+    <property name="delimited.colums" value ="S47_ENQUIRY_FACT.DIM_LOOKUP_STEP_SUMMARY_STATUS_DESC, 
+ S47_ENQUIRY_FACT.PARENT_PATHWAY, 
+ S47_ENQUIRY_FACT.rid, 
+ S47_ENQUIRY_FACT.trid, 
+ S47_ENQUIRY_FACT.nhshash, 
+ S47_ENQUIRY_FACT.REFERRAL_ID, 
+ S47_ENQUIRY_FACT.S47_ENQ_END_DATE, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_CP_CONFERENCE, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_LEGAL_ACTION, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_MONITOR, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_NFA, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_NFA_CONT_CORE_ASSESSMENT, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_NFA_CONT_SINGLE_ASSESSMENT, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_PROV_OF_SHORT_BREAK_CARE, 
+ S47_ENQUIRY_FACT.S47_ENQ_OUTCOME_PROV_OF_SVCS, 
+ S47_ENQUIRY_FACT.S47_ENQ_START_DATE, 
+ S47_ENQUIRY_FACT.S47_ID, 
+ S47_ENQUIRY_FACT._when_processed_utc"/>
+  </source>
+  <source name="SINGLE_ASSESSMENT_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="SINGLE_ASSESSMENT_FACT.csv"/>
+    <property name="delimited.colums" value ="SINGLE_ASSESSMENT_FACT.ASSESSMENT_END_DATE, 
+ SINGLE_ASSESSMENT_FACT.ASSESSMENT_ID, 
+ SINGLE_ASSESSMENT_FACT.ASSESSMENT_START_DATE, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_CLA_REQUEST, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_LEGAL_ACTION, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_NFA, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_NFA_S47_END, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_PRIV_FOSTERING, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_PROVISION_OF_SERVICE, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_PROV_SB_CARE, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_REF_OTHER_AGENCY, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_SPECIALIST_ASSESS, 
+ SINGLE_ASSESSMENT_FACT.ASSESS_OUTCOME_STRATEGY_DISCUSSION, 
+ SINGLE_ASSESSMENT_FACT.COMPLETED_BY_DEPT_NAME, 
+ SINGLE_ASSESSMENT_FACT.FORM_ID, 
+ SINGLE_ASSESSMENT_FACT.rid, 
+ SINGLE_ASSESSMENT_FACT.trid, 
+ SINGLE_ASSESSMENT_FACT.nhshash, 
+ SINGLE_ASSESSMENT_FACT.REFERRAL_ID, 
+ SINGLE_ASSESSMENT_FACT._when_processed_utc"/>
+  </source>
+  <source name="STRATEGY_DISCUSSION_FACT" type="delimited">
+    <property name="delimited.dataSourceName" value="CCC"/>
+    <property name="delimited.dataSetTitle" value="synthetic local authority data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccc"/>
+    <property name="delimited.includes" value="STRATEGY_DISCUSSION_FACT.csv"/>
+    <property name="delimited.colums" value ="STRATEGY_DISCUSSION_FACT.DISCUSSION_ID, 
+ STRATEGY_DISCUSSION_FACT.MEETING_DATE, 
+ STRATEGY_DISCUSSION_FACT.MEETING_ID, 
+ STRATEGY_DISCUSSION_FACT.rid, 
+ STRATEGY_DISCUSSION_FACT.trid, 
+ STRATEGY_DISCUSSION_FACT.nhshash, 
+ STRATEGY_DISCUSSION_FACT.REFERRAL_ID, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_FOLLOW_UP_STR_DIS, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_NFA, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_POLICE_INVESTIGATION, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_REF_OTHER_AGENCY, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_S47_CONTINUE_EPISODE, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_S47_INVESTIGATION, 
+ STRATEGY_DISCUSSION_FACT.STR_DIS_OUTCOME_SINGLE_ASSESSMENT, 
+ STRATEGY_DISCUSSION_FACT._when_processed_utc"/>
+  </source>
+</sources>

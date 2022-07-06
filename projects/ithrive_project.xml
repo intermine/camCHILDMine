@@ -1,0 +1,281 @@
+<project type="bio">
+  <property name="target.model" value="genomic"/>
+  <property name="common.os.prefix" value="common"/>
+  <sources>
+  
+<source name="risk-factors" type="delimited">
+  <property name="delimited.dataSourceName" value="Risk Factors Definitions"/>
+  <property name="delimited.dataSetTitle" value="Risk Factors Definition Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="RiskFactorDefinition.domain,
+  RiskFactorDefinition.level,
+  RiskFactorDefinition.riskFactor,
+  RiskFactorDefinition.additionalInfo,
+  RiskFactorDefinition.underservedPopulation,
+  RiskFactorDefinition.type" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="rfdef.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="patient" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth patient Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="Patient.idWithinSite,
+  Patient.hashedIdWithinSite,
+  Patient.gender,
+  Patient.genderMismatch,
+  Patient.ethnicityCode,
+  Patient.lifetimeCamhsReferrals,
+  Patient.earliestDateOfBirth,
+  Patient.latestDateOfBirth,
+  Patient.approxDateOfBirth"/>
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="patient.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+<source name="referral" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth referral Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="Referral.idWithinSite,
+  Referral.idWithinPatient,
+  Referral.referralStartDate,
+  Referral.referralFinancialYearStartDate,
+  Referral.source,
+  Referral.locality,
+  Referral.ccg,
+  Referral.teamReferredTo,
+  Referral.referralType,
+  Referral.urgency,
+  Referral.urgencyRaw,
+  Referral.ageAtReferralInt,
+  Referral.ageAtReferralDecimal,
+  Referral.cumCamhsReferralsIncludingThis,
+  Referral.referralReceivedDate,
+  Referral.triageDate,
+  Referral.wasAccepted,
+  Referral.acceptanceRaw,
+  Referral.firstAssessmentDate,
+  Referral.firstTreatmentDate,
+  Referral.NrAppointmentsFaceToFace,
+  Referral.NrAppointmentsNotFaceToFace,
+  Referral.NrAppointmentsNotAttended,
+  Referral.NrAppointmentsCancelledByPatient,
+  Referral.NrAppointmentsCancelledByProvider,
+  Referral.lastTreatmentDate,
+  Referral.dischargeDate,
+  Referral.dischargeDestination,
+  Referral.dischargeReason" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="referral.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+    <source name="contact" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="synth contact Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Contact.contactDate,
+  Contact.contactDateTime,
+  Contact.team,
+  Contact.contactType,
+  Contact.urgency,
+  Contact.urgencyRaw,
+  Contact.clinicianJobTitle,
+  Contact.outcome,
+  Contact.contactWhether,
+  Contact.contactHow,
+  Contact.patientAttended,
+  Contact.carerAttended,
+  Contact.cancelledByClinician,
+  Contact.cancelledByPatient,
+  Contact.wasFaceToFace,
+  Contact.wasTriage,
+  Contact.wasInitialAssessment,
+  Contact.wasTreatment,
+  Contact.wasDischarge" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="contact.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+    <source name="diagnosis" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="synth diagnostic Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Diagnosis.system,
+  Diagnosis.code,
+  Diagnosis.startDate,
+  Diagnosis.endDate,
+  Diagnosis.financialYearStartDate" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="diagnosis.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+    <source name="genericoutcomevariable" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="synth govar Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="GenericOutcomeVariable.assessmentTitle,
+                GenericOutcomeVariable.variableTitle,
+                GenericOutcomeVariable.snomedCode,
+                GenericOutcomeVariable.snomedName,
+                GenericOutcomeVariable.valueIsInt,
+                GenericOutcomeVariable.valueIsDecimal,
+                GenericOutcomeVariable.valueIsString" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="generic_outcome_variable.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+    <source name="genericoutcomevalue" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="synth goval Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="GenericOutcomeValue.measurementDate,
+                GenericOutcomeValue.isFirstOfFinancialYearStarting,
+                GenericOutcomeValue.isLastOfFinancialYearStarting,
+                GenericOutcomeValue.valueInt,
+                GenericOutcomeValue.valueDecimal,
+                GenericOutcomeValue.valueString,
+                GenericOutcomeValue.completedBy,
+                GenericOutcomeValue.note" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="generic_outcome_value.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+    <source name="site" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="site data Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Site.identifier,
+                Site.shortName,
+                Site.name,
+                Site.periodStartDate,
+                Site.periodEndDate,
+                Site.isIThriveSite" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="site.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+    <source name="ethnicity" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="ethnicity data Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Ethnicity.nhsCode,
+                Ethnicity.description" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="ethnicity.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+
+    <source name="problem" type="delimited">
+      <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+      <property name="delimited.dataSetTitle" value="synt problem data Set"/>
+      <property name="delimited.licence" value="http//usemydatalicence.com"/>
+      <property name="delimited.hasHeader" value="true"/>
+      <property name="delimited.columns"
+                value="Problem.problem" />
+      <property name="delimited.separator" value="comma"/>
+      <property name="delimited.includes" value="problem.csv"/>
+      <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+    </source>
+
+
+    <source name="currentview" type="delimited">
+  <property name="delimited.dataSourceName" value="syntethic iThrive"/>
+  <property name="delimited.dataSetTitle" value="synth synopsis Set"/>
+  <property name="delimited.licence" value="http//usemydatalicence.com"/>
+  <property name="delimited.hasHeader" value="true"/>
+  <property name="delimited.columns" 
+  value="CurrentView.assessmentDate,
+        CurrentView.anxiousAwayFromCaregivers,
+        CurrentView.anxiousInSocialSituations,
+        CurrentView.anxiousGenerally,
+        CurrentView.compelledToDoOrThinkThings,
+        CurrentView.panics,
+        CurrentView.avoidsGoingOut,
+        CurrentView.avoidsSpecificThings,
+        CurrentView.repetitiveProblematicBehaviours,
+        CurrentView.depressionLowMood,
+        CurrentView.selfHarm,
+        CurrentView.extremesOfMood,
+        CurrentView.delusionalBeliefsAndHallucinations,
+        CurrentView.drugAndAlcoholDifficulties,
+        CurrentView.difficultiesSittingStillOrConcentrating,
+        CurrentView.behaviouralDifficulties,
+        CurrentView.posesRiskToOthers,
+        CurrentView.carerManagementOfCypBehaviour,
+        CurrentView.doesNotGetToToiletInTime,
+        CurrentView.disturbedByTraumaticEvent,
+        CurrentView.eatingIssues,
+        CurrentView.familyRelationshipDifficulties,
+        CurrentView.problemsInAttachmentToParentCarer,
+        CurrentView.peerRelationshipDifficulties,
+        CurrentView.persistentDifficultiesManagingRelationships,
+        CurrentView.doesNotSpeak,
+        CurrentView.genderDiscomfortIssues,
+        CurrentView.unexplainedPhysicalSymptoms,
+        CurrentView.unexplainedDevelopmentalDifficulties,
+        CurrentView.selfCareIssues,
+        CurrentView.adjustmentToHealthIssues,
+        CurrentView.lookedAfterChild,
+        CurrentView.youngCarerStatus,
+        CurrentView.learningDisability,
+        CurrentView.seriousPhysicalHealthIssues,
+        CurrentView.pervasiveDevelopmentalDisorders,
+        CurrentView.neurologicalIssues,
+        CurrentView.currentProtectionPlan,
+        CurrentView.childInNeed,
+        CurrentView.refugeeOrAsylumSeeker,
+        CurrentView.experienceOfWarTortureOrTrafficking,
+        CurrentView.experienceOfAbuseOrNeglect,
+        CurrentView.parentalHealthIssues,
+        CurrentView.contactWithYouthJusticeSystem,
+        CurrentView.livingInFinancialDifficulty,
+        CurrentView.home,
+        CurrentView.schoolWorkOrTraining,
+        CurrentView.community,
+        CurrentView.serviceEngagement,
+        CurrentView.attendanceDifficulties,
+        CurrentView.attainmentDifficulties" />
+  <property name="delimited.separator" value="comma"/>
+  <property name="delimited.includes" value="current_view_tool_boolean.csv"/>
+  <property name="src.data.dir" location="/Users/sergio/data/camchild/"/>
+</source>
+
+  </sources>
+
+  <post-processing>
+
+
+
+  </post-processing>
+
+</project>
+

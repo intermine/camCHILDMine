@@ -1,0 +1,2584 @@
+<?xml version="1.0"?>
+<sources>
+  <source name="S1_18WeekWait" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_18WeekWait.csv"/>
+    <property name="delimited.colums" value ="S1_18WeekWait.CCG_Code, 
+ S1_18WeekWait.CCG_Code_Reporting, 
+ S1_18WeekWait.CCG_Name, 
+ S1_18WeekWait.CCG_Name_Reporting, 
+ S1_18WeekWait.CPFT_ServiceCode, 
+ S1_18WeekWait.CPFT_ServiceDescription, 
+ S1_18WeekWait.CaseloadName, 
+ S1_18WeekWait.CensusDate, 
+ S1_18WeekWait.ClockStarted, 
+ S1_18WeekWait.DateAppointmentOffered, 
+ S1_18WeekWait.DateCompleted, 
+ S1_18WeekWait.DateEvent, 
+ S1_18WeekWait.DateEventRecorded, 
+ S1_18WeekWait.DateExpectedEnd, 
+ S1_18WeekWait.DateStart, 
+ S1_18WeekWait.DateStatus, 
+ S1_18WeekWait.DaysWaited, 
+ S1_18WeekWait.Directorate, 
+ S1_18WeekWait.IDCaseload, 
+ S1_18WeekWait.IDEvent, 
+ S1_18WeekWait.IDNumber, 
+ S1_18WeekWait.IDOrganisation, 
+ S1_18WeekWait.rid, 
+ S1_18WeekWait.trid, 
+ S1_18WeekWait.IDPractice, 
+ S1_18WeekWait.IDPractice_Reporting, 
+ S1_18WeekWait.IDReferralIn, 
+ S1_18WeekWait.Include18Weeks, 
+ S1_18WeekWait.IsMentalHealth, 
+ S1_18WeekWait.LiveReferralStatus, 
+ S1_18WeekWait.mrid, 
+ S1_18WeekWait.NeighbourhoodTeamCode, 
+ S1_18WeekWait.NeighbourhoodTeamDescription, 
+ S1_18WeekWait.New, 
+ S1_18WeekWait.Organisation, 
+ S1_18WeekWait.PCNCode, 
+ S1_18WeekWait.PCNName, 
+ S1_18WeekWait.Practice_Name, 
+ S1_18WeekWait.Practice_Name_Reporting, 
+ S1_18WeekWait.ReasonableOffer, 
+ S1_18WeekWait.RowIdentifier, 
+ S1_18WeekWait._src_hash, 
+ S1_18WeekWait.ServiceOffered, 
+ S1_18WeekWait.ServiceOfferedDescription, 
+ S1_18WeekWait.Status, 
+ S1_18WeekWait.StatusDescription, 
+ S1_18WeekWait.TreatmentFunction, 
+ S1_18WeekWait.TreatmentFunctionDescription, 
+ S1_18WeekWait.WeekBand, 
+ S1_18WeekWait.WeekBand2, 
+ S1_18WeekWait.WeekBand2Order, 
+ S1_18WeekWait.WeekBand2Tooltip, 
+ S1_18WeekWait.WeekBandOrder, 
+ S1_18WeekWait.WeeksWaited, 
+ S1_18WeekWait._when_processed_utc"/>
+  </source>
+  <source name="S1_Accommodation" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Accommodation.csv"/>
+    <property name="delimited.colums" value ="S1_Accommodation.CPFTGroup, 
+ S1_Accommodation.CPFT_ServiceCode, 
+ S1_Accommodation.CPFT_ServiceDescription, 
+ S1_Accommodation.CTV3Code, 
+ S1_Accommodation.CTV3Text, 
+ S1_Accommodation.CYPHS_Accommodation_Status_Code, 
+ S1_Accommodation.DateEvent, 
+ S1_Accommodation.Directorate, 
+ S1_Accommodation.IDDoneBy, 
+ S1_Accommodation.IDOrganisation, 
+ S1_Accommodation.rid, 
+ S1_Accommodation.trid, 
+ S1_Accommodation.IDReferralIn, 
+ S1_Accommodation.IDTemplate, 
+ S1_Accommodation.IsMentalHealth, 
+ S1_Accommodation.RowIdentifier, 
+ S1_Accommodation._src_hash, 
+ S1_Accommodation.RwNo, 
+ S1_Accommodation.SNOMEDCode, 
+ S1_Accommodation.SNOMEDText, 
+ S1_Accommodation.SettledAccomodationMHSDSCode, 
+ S1_Accommodation.SettledAccomodationMHSDSDescription, 
+ S1_Accommodation.SettledAccomodation_CTV3Code, 
+ S1_Accommodation.SettledAccomodation_CTV3Text, 
+ S1_Accommodation.StaffName, 
+ S1_Accommodation.TemplateName, 
+ S1_Accommodation.mrid, 
+ S1_Accommodation._when_processed_utc"/>
+  </source>
+  <source name="S1_ActivityEvent" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ActivityEvent.csv"/>
+    <property name="delimited.colums" value ="S1_ActivityEvent.AgeAtEvent, 
+ S1_ActivityEvent.AttDNA_ContactMethod, 
+ S1_ActivityEvent.AttDNA_EventDetails, 
+ S1_ActivityEvent.AttDNA_EventDetailsMethod, 
+ S1_ActivityEvent.AttDNA_EventDetailsWith, 
+ S1_ActivityEvent.AttendedOrDNA, 
+ S1_ActivityEvent.AttendedOrDNADescription, 
+ S1_ActivityEvent.CCG_Code, 
+ S1_ActivityEvent.CCG_Name, 
+ S1_ActivityEvent.CPFTGroup, 
+ S1_ActivityEvent.CPFT_LocationCode, 
+ S1_ActivityEvent.CPFT_LocationDescription, 
+ S1_ActivityEvent.CPFT_ServiceOfferedCode, 
+ S1_ActivityEvent.CPFT_ServiceOfferedDescription, 
+ S1_ActivityEvent.CYPHS_ContactLocationCode, 
+ S1_ActivityEvent.CYPHS_ContactLocationDescription, 
+ S1_ActivityEvent.CYPHS_ContactMethod_EventDetailsMethod, 
+ S1_ActivityEvent.CYPHS_EventDetails, 
+ S1_ActivityEvent.CYPHS_EventDetailsMethod, 
+ S1_ActivityEvent.CYPHS_EventDetailsWith, 
+ S1_ActivityEvent.CYPHS_ServiceCode, 
+ S1_ActivityEvent.CYPHS_ServiceDescription, 
+ S1_ActivityEvent.ContactLocation, 
+ S1_ActivityEvent.ContactLocationDescription, 
+ S1_ActivityEvent.ContactMethod, 
+ S1_ActivityEvent.ContactMethodDescription, 
+ S1_ActivityEvent.Contact_ContactMethod, 
+ S1_ActivityEvent.Contact_EventDetails, 
+ S1_ActivityEvent.Contact_EventDetailsMethod, 
+ S1_ActivityEvent.Contact_EventDetailsWith, 
+ S1_ActivityEvent.CostCentre, 
+ S1_ActivityEvent.CostCentreDesc, 
+ S1_ActivityEvent.DateEvent, 
+ S1_ActivityEvent.DateEventDateTime, 
+ S1_ActivityEvent.DateEventRecorded, 
+ S1_ActivityEvent.Directorate, 
+ S1_ActivityEvent.EventDetails, 
+ S1_ActivityEvent.EventDetailsDescription, 
+ S1_ActivityEvent.EventDetailsMethod, 
+ S1_ActivityEvent.EventDetailsMethodDescription, 
+ S1_ActivityEvent.EventDetailsWith, 
+ S1_ActivityEvent.EventDetailsWithDescription, 
+ S1_ActivityEvent.EventDuration, 
+ S1_ActivityEvent.FTE, 
+ S1_ActivityEvent.IDDoneBy, 
+ S1_ActivityEvent.IDEvent, 
+ S1_ActivityEvent.IDOrganisationDoneAt, 
+ S1_ActivityEvent.rid, 
+ S1_ActivityEvent.trid, 
+ S1_ActivityEvent.IDPractice, 
+ S1_ActivityEvent.IDReferralIn, 
+ S1_ActivityEvent.IDReferredTo, 
+ S1_ActivityEvent.IsContact, 
+ S1_ActivityEvent.IsMentalHealth, 
+ S1_ActivityEvent.mrid, 
+ S1_ActivityEvent.NameOfCarePlanUsed, 
+ S1_ActivityEvent.NeighbourhoodTeamCode, 
+ S1_ActivityEvent.NeighbourhoodTeamDescription, 
+ S1_ActivityEvent.New, 
+ S1_ActivityEvent.Organisation, 
+ S1_ActivityEvent.PayscaleDescription, 
+ S1_ActivityEvent.Practice_Name, 
+ S1_ActivityEvent.Role, 
+ S1_ActivityEvent.RowIdentifier, 
+ S1_ActivityEvent.ServiceOffered, 
+ S1_ActivityEvent.ServiceOfferedDescription, 
+ S1_ActivityEvent.StaffName, 
+ S1_ActivityEvent.TeamName, 
+ S1_ActivityEvent._when_processed_utc"/>
+  </source>
+  <source name="S1_ActivityEvent_DNA" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ActivityEvent_DNA.csv"/>
+    <property name="delimited.colums" value ="S1_ActivityEvent_DNA.AgeAtEvent, 
+ S1_ActivityEvent_DNA.AttendedOrDNA, 
+ S1_ActivityEvent_DNA.AttendedOrDNADescription, 
+ S1_ActivityEvent_DNA.CCG_Code, 
+ S1_ActivityEvent_DNA.CCG_Name, 
+ S1_ActivityEvent_DNA.CPFTGroup, 
+ S1_ActivityEvent_DNA.CPFT_ServiceOfferedCode, 
+ S1_ActivityEvent_DNA.CPFT_ServiceOfferedDescription, 
+ S1_ActivityEvent_DNA.CYPHS_ServiceCode, 
+ S1_ActivityEvent_DNA.CYPHS_ServiceDescription, 
+ S1_ActivityEvent_DNA.DateEvent, 
+ S1_ActivityEvent_DNA.DateEventDateTime, 
+ S1_ActivityEvent_DNA.DateEventRecorded, 
+ S1_ActivityEvent_DNA.Directorate, 
+ S1_ActivityEvent_DNA.IDDoneBy, 
+ S1_ActivityEvent_DNA.IDEvent, 
+ S1_ActivityEvent_DNA.IDOrganisationDoneAt, 
+ S1_ActivityEvent_DNA.rid, 
+ S1_ActivityEvent_DNA.trid, 
+ S1_ActivityEvent_DNA.IDPractice, 
+ S1_ActivityEvent_DNA.IDReferralIn, 
+ S1_ActivityEvent_DNA.IDReferredTo, 
+ S1_ActivityEvent_DNA.IsContact, 
+ S1_ActivityEvent_DNA.IsMentalHealth, 
+ S1_ActivityEvent_DNA.mrid, 
+ S1_ActivityEvent_DNA.NeighbourhoodTeamCode, 
+ S1_ActivityEvent_DNA.NeighbourhoodTeamDescription, 
+ S1_ActivityEvent_DNA.New, 
+ S1_ActivityEvent_DNA.Organisation, 
+ S1_ActivityEvent_DNA.Practice_Name, 
+ S1_ActivityEvent_DNA.RowIdentifier, 
+ S1_ActivityEvent_DNA._src_hash, 
+ S1_ActivityEvent_DNA.ServiceOffered, 
+ S1_ActivityEvent_DNA.ServiceOfferedDescription, 
+ S1_ActivityEvent_DNA.StaffName, 
+ S1_ActivityEvent_DNA.TeamName, 
+ S1_ActivityEvent_DNA._when_processed_utc"/>
+  </source>
+  <source name="S1_ActivityEvent_EventDuration" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ActivityEvent_EventDuration.csv"/>
+    <property name="delimited.colums" value ="S1_ActivityEvent_EventDuration.EventDuration, 
+ S1_ActivityEvent_EventDuration.EventDurationALL, 
+ S1_ActivityEvent_EventDuration.IDEvent, 
+ S1_ActivityEvent_EventDuration._src_hash, 
+ S1_ActivityEvent_EventDuration._when_processed_utc"/>
+  </source>
+  <source name="S1_Appointments" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Appointments.csv"/>
+    <property name="delimited.colums" value ="S1_Appointments.AppointmentDate, 
+ S1_Appointments.AppointmentEndDate, 
+ S1_Appointments.AppointmentStatus, 
+ S1_Appointments.AppointmentStatusDescription, 
+ S1_Appointments.AttendedOrDNA, 
+ S1_Appointments.BookingContactNumber, 
+ S1_Appointments.DateAppointmentBooked, 
+ S1_Appointments.DateAppointmentCancelled, 
+ S1_Appointments.DatePatientArrival, 
+ S1_Appointments.DatePatientSeen, 
+ S1_Appointments.Duration, 
+ S1_Appointments.FollowUpAppointment, 
+ S1_Appointments.IDClinician, 
+ S1_Appointments.IDOrganisation, 
+ S1_Appointments.rid, 
+ S1_Appointments.trid, 
+ S1_Appointments.IDProfileClinician, 
+ S1_Appointments.IDReferralIn, 
+ S1_Appointments.IDRota, 
+ S1_Appointments.IsMentalHealth, 
+ S1_Appointments.NationalCode, 
+ S1_Appointments.New, 
+ S1_Appointments.OrganisationName, 
+ S1_Appointments.RotaCode, 
+ S1_Appointments.RotaLocation, 
+ S1_Appointments.RotaLocationDescription, 
+ S1_Appointments.RotaName, 
+ S1_Appointments.RotaType, 
+ S1_Appointments.RowIdentifier, 
+ S1_Appointments._src_hash, 
+ S1_Appointments.StaffName, 
+ S1_Appointments.StaffRole, 
+ S1_Appointments.TelephoneAppointment, 
+ S1_Appointments.Time, 
+ S1_Appointments.mrid, 
+ S1_Appointments._when_processed_utc"/>
+  </source>
+  <source name="S1_CarerStatus" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_CarerStatus.csv"/>
+    <property name="delimited.colums" value ="S1_CarerStatus.CPFTGroup, 
+ S1_CarerStatus.CPFT_ServiceCode, 
+ S1_CarerStatus.CPFT_ServiceDescription, 
+ S1_CarerStatus.CTV3Code, 
+ S1_CarerStatus.CTV3Text, 
+ S1_CarerStatus.DateEvent, 
+ S1_CarerStatus.DateEventRecorded, 
+ S1_CarerStatus.Directorate, 
+ S1_CarerStatus.IDDoneBy, 
+ S1_CarerStatus.IDEvent, 
+ S1_CarerStatus.IDOrganisation, 
+ S1_CarerStatus.rid, 
+ S1_CarerStatus.trid, 
+ S1_CarerStatus.IDReferralIn, 
+ S1_CarerStatus.IDTemplate, 
+ S1_CarerStatus.RowIdentifier, 
+ S1_CarerStatus._src_hash, 
+ S1_CarerStatus.StaffName, 
+ S1_CarerStatus.TemplateName, 
+ S1_CarerStatus.mrid, 
+ S1_CarerStatus._when_processed_utc"/>
+  </source>
+  <source name="S1_Child_At_Risk" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Child_At_Risk.csv"/>
+    <property name="delimited.colums" value ="S1_Child_At_Risk.ChildProtectionPlan, 
+ S1_Child_At_Risk.DateAdded, 
+ S1_Child_At_Risk.DateRemoved, 
+ S1_Child_At_Risk.IDOrganisation, 
+ S1_Child_At_Risk.IDOrganisationVisibleTo, 
+ S1_Child_At_Risk.rid, 
+ S1_Child_At_Risk.trid, 
+ S1_Child_At_Risk.Organisation, 
+ S1_Child_At_Risk.OrganisationVisibleTo, 
+ S1_Child_At_Risk.RemovalReason, 
+ S1_Child_At_Risk.RowIdentifier, 
+ S1_Child_At_Risk.mrid, 
+ S1_Child_At_Risk._when_processed_utc"/>
+  </source>
+  <source name="S1_Child_Protection_Plan_Reason" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Child_Protection_Plan_Reason.csv"/>
+    <property name="delimited.colums" value ="S1_Child_Protection_Plan_Reason.CPFTGroup, 
+ S1_Child_Protection_Plan_Reason.CPFT_ServiceCode, 
+ S1_Child_Protection_Plan_Reason.CPFT_ServiceDescription, 
+ S1_Child_Protection_Plan_Reason.CTV3Code, 
+ S1_Child_Protection_Plan_Reason.CTV3Text, 
+ S1_Child_Protection_Plan_Reason.CYPHS_Child_Protection_Plan_Reason_Code, 
+ S1_Child_Protection_Plan_Reason.DateEvent, 
+ S1_Child_Protection_Plan_Reason.Directorate, 
+ S1_Child_Protection_Plan_Reason.IDDoneBy, 
+ S1_Child_Protection_Plan_Reason.IDEvent, 
+ S1_Child_Protection_Plan_Reason.IDOrganisation, 
+ S1_Child_Protection_Plan_Reason.rid, 
+ S1_Child_Protection_Plan_Reason.trid, 
+ S1_Child_Protection_Plan_Reason.IDReferralIn, 
+ S1_Child_Protection_Plan_Reason.IDTemplate, 
+ S1_Child_Protection_Plan_Reason.IsMentalHealth, 
+ S1_Child_Protection_Plan_Reason.RowIdentifier, 
+ S1_Child_Protection_Plan_Reason._src_hash, 
+ S1_Child_Protection_Plan_Reason.SNOMEDCode, 
+ S1_Child_Protection_Plan_Reason.SNOMEDText, 
+ S1_Child_Protection_Plan_Reason.StaffName, 
+ S1_Child_Protection_Plan_Reason.TemplateName, 
+ S1_Child_Protection_Plan_Reason.mrid, 
+ S1_Child_Protection_Plan_Reason._when_processed_utc"/>
+  </source>
+  <source name="S1_Contacts" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Contacts.csv"/>
+    <property name="delimited.colums" value ="S1_Contacts.AgeAtEvent, 
+ S1_Contacts.AttendedOrDNA, 
+ S1_Contacts.AttendedOrDNADescription, 
+ S1_Contacts.CCG_Code, 
+ S1_Contacts.CCG_Code_Reporting, 
+ S1_Contacts.CCG_Name, 
+ S1_Contacts.CCG_Name_Reporting, 
+ S1_Contacts.CPFTGroup, 
+ S1_Contacts.CPFT_LocationCode, 
+ S1_Contacts.CPFT_LocationDescription, 
+ S1_Contacts.CPFT_ServiceOfferedCode, 
+ S1_Contacts.CPFT_ServiceOfferedDescription, 
+ S1_Contacts.CYPHS_CARE_PROFESSIONAL_TEAM_LOCAL_IDENTIFIER, 
+ S1_Contacts.CYPHS_ContactLocationCode, 
+ S1_Contacts.CYPHS_ContactLocationDescription, 
+ S1_Contacts.CYPHS_ContactMethod_EventDetailsMethod, 
+ S1_Contacts.CYPHS_EventDetails, 
+ S1_Contacts.CYPHS_EventDetailsMethod, 
+ S1_Contacts.CYPHS_EventDetailsWith, 
+ S1_Contacts.CYPHS_Group_Therapy_Indicator, 
+ S1_Contacts.CYPHS_ServiceCode, 
+ S1_Contacts.CYPHS_ServiceDescription, 
+ S1_Contacts.ClientSequence, 
+ S1_Contacts.ClientSequenceAttended, 
+ S1_Contacts.ClientSequenceAttendedFaceToFace, 
+ S1_Contacts.ContactLocation, 
+ S1_Contacts.ContactMethod, 
+ S1_Contacts.ContactMethodDescription, 
+ S1_Contacts.Contact_EventDetailsMethod, 
+ S1_Contacts.Contact_EventDetailsWith, 
+ S1_Contacts.CostCentre, 
+ S1_Contacts.CostCentreDesc, 
+ S1_Contacts.DateEvent, 
+ S1_Contacts.DateEventDateTime, 
+ S1_Contacts.DateEventRecorded, 
+ S1_Contacts.DayContact, 
+ S1_Contacts.DayNumberContact, 
+ S1_Contacts.Directorate, 
+ S1_Contacts.EventDetails, 
+ S1_Contacts.EventDetailsDescription, 
+ S1_Contacts.EventDetailsMethod, 
+ S1_Contacts.EventDetailsMethodDescription, 
+ S1_Contacts.EventDetailsWith, 
+ S1_Contacts.EventDetailsWithDescription, 
+ S1_Contacts.EventDuration, 
+ S1_Contacts.EventDurationALL, 
+ S1_Contacts.IDDoneBy, 
+ S1_Contacts.IDEvent, 
+ S1_Contacts.IDOrganisationDoneAt, 
+ S1_Contacts.rid, 
+ S1_Contacts.trid, 
+ S1_Contacts.IDPractice, 
+ S1_Contacts.IDPractice_Reporting, 
+ S1_Contacts.IDReferralIn, 
+ S1_Contacts.IDReferredTo, 
+ S1_Contacts.IsContact, 
+ S1_Contacts.IsMentalHealth, 
+ S1_Contacts.IsWeekend, 
+ S1_Contacts.LegalContact, 
+ S1_Contacts.mrid, 
+ S1_Contacts.NeighbourhoodTeamCode, 
+ S1_Contacts.NeighbourhoodTeamDescription, 
+ S1_Contacts.New, 
+ S1_Contacts.Organisation, 
+ S1_Contacts.PayscaleDescription, 
+ S1_Contacts.Practice_Name, 
+ S1_Contacts.Practice_Name_Reporting, 
+ S1_Contacts.Role, 
+ S1_Contacts.RowIdentifier, 
+ S1_Contacts._src_hash, 
+ S1_Contacts.RwNo, 
+ S1_Contacts.ServiceOffered, 
+ S1_Contacts.ServiceOfferedDescription, 
+ S1_Contacts.SiteCodeofTreatment, 
+ S1_Contacts.StaffName, 
+ S1_Contacts.SupportContact, 
+ S1_Contacts.TeamName, 
+ S1_Contacts._when_processed_utc"/>
+  </source>
+  <source name="S1_Contacts_CarerStatus_MH" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Contacts_CarerStatus_MH.csv"/>
+    <property name="delimited.colums" value ="S1_Contacts_CarerStatus_MH.rid, 
+ S1_Contacts_CarerStatus_MH._src_hash, 
+ S1_Contacts_CarerStatus_MH.trid, 
+ S1_Contacts_CarerStatus_MH.TotalContacts, 
+ S1_Contacts_CarerStatus_MH.mrid, 
+ S1_Contacts_CarerStatus_MH._when_processed_utc"/>
+  </source>
+  <source name="S1_Contacts_CarerStatus_PH" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Contacts_CarerStatus_PH.csv"/>
+    <property name="delimited.colums" value ="S1_Contacts_CarerStatus_PH.rid, 
+ S1_Contacts_CarerStatus_PH._src_hash, 
+ S1_Contacts_CarerStatus_PH.trid, 
+ S1_Contacts_CarerStatus_PH.TotalContacts, 
+ S1_Contacts_CarerStatus_PH.mrid, 
+ S1_Contacts_CarerStatus_PH._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive.AgeAtEvent, 
+ S1_ContactsArchive.AttendedOrDNA, 
+ S1_ContactsArchive.AttendedOrDNADescription, 
+ S1_ContactsArchive.CCG_Code, 
+ S1_ContactsArchive.CCG_Code_Reporting, 
+ S1_ContactsArchive.CCG_Name, 
+ S1_ContactsArchive.CCG_Name_Reporting, 
+ S1_ContactsArchive.CPFTGroup, 
+ S1_ContactsArchive.CPFT_LocationCode, 
+ S1_ContactsArchive.CPFT_LocationDescription, 
+ S1_ContactsArchive.CPFT_ServiceOfferedCode, 
+ S1_ContactsArchive.CPFT_ServiceOfferedDescription, 
+ S1_ContactsArchive.CYPHS_CARE_PROFESSIONAL_TEAM_LOCAL_IDENTIFIER, 
+ S1_ContactsArchive.CYPHS_ContactLocationCode, 
+ S1_ContactsArchive.CYPHS_ContactLocationDescription, 
+ S1_ContactsArchive.CYPHS_ContactMethod_EventDetailsMethod, 
+ S1_ContactsArchive.CYPHS_EventDetails, 
+ S1_ContactsArchive.CYPHS_EventDetailsMethod, 
+ S1_ContactsArchive.CYPHS_EventDetailsWith, 
+ S1_ContactsArchive.CYPHS_Group_Therapy_Indicator, 
+ S1_ContactsArchive.CYPHS_ServiceCode, 
+ S1_ContactsArchive.CYPHS_ServiceDescription, 
+ S1_ContactsArchive.ClientSequence, 
+ S1_ContactsArchive.ClientSequenceAttended, 
+ S1_ContactsArchive.ClientSequenceAttendedFaceToFace, 
+ S1_ContactsArchive.ContactLocation, 
+ S1_ContactsArchive.ContactMethod, 
+ S1_ContactsArchive.ContactMethodDescription, 
+ S1_ContactsArchive.Contact_EventDetailsMethod, 
+ S1_ContactsArchive.Contact_EventDetailsWith, 
+ S1_ContactsArchive.CostCentre, 
+ S1_ContactsArchive.CostCentreDesc, 
+ S1_ContactsArchive.DateEvent, 
+ S1_ContactsArchive.DateEventDateTime, 
+ S1_ContactsArchive.DateEventRecorded, 
+ S1_ContactsArchive.DayContact, 
+ S1_ContactsArchive.DayNumberContact, 
+ S1_ContactsArchive.Directorate, 
+ S1_ContactsArchive.EventDetails, 
+ S1_ContactsArchive.EventDetailsDescription, 
+ S1_ContactsArchive.EventDetailsMethod, 
+ S1_ContactsArchive.EventDetailsMethodDescription, 
+ S1_ContactsArchive.EventDetailsWith, 
+ S1_ContactsArchive.EventDetailsWithDescription, 
+ S1_ContactsArchive.EventDuration, 
+ S1_ContactsArchive.EventDurationALL, 
+ S1_ContactsArchive.IDDoneBy, 
+ S1_ContactsArchive.IDEvent, 
+ S1_ContactsArchive.IDOrganisationDoneAt, 
+ S1_ContactsArchive.rid, 
+ S1_ContactsArchive.trid, 
+ S1_ContactsArchive.IDPractice, 
+ S1_ContactsArchive.IDPractice_Reporting, 
+ S1_ContactsArchive.IDReferralIn, 
+ S1_ContactsArchive.IDReferredTo, 
+ S1_ContactsArchive.IsContact, 
+ S1_ContactsArchive.IsMentalHealth, 
+ S1_ContactsArchive.IsWeekend, 
+ S1_ContactsArchive.LegalContact, 
+ S1_ContactsArchive.mrid, 
+ S1_ContactsArchive.NeighbourhoodTeamCode, 
+ S1_ContactsArchive.NeighbourhoodTeamDescription, 
+ S1_ContactsArchive.New, 
+ S1_ContactsArchive.Organisation, 
+ S1_ContactsArchive.PayscaleDescription, 
+ S1_ContactsArchive.Practice_Name, 
+ S1_ContactsArchive.Practice_Name_Reporting, 
+ S1_ContactsArchive.Role, 
+ S1_ContactsArchive.RowIdentifier, 
+ S1_ContactsArchive.RwNo, 
+ S1_ContactsArchive.ServiceOffered, 
+ S1_ContactsArchive.ServiceOfferedDescription, 
+ S1_ContactsArchive.SiteCodeofTreatment, 
+ S1_ContactsArchive.StaffName, 
+ S1_ContactsArchive.SupportContact, 
+ S1_ContactsArchive.TeamName, 
+ S1_ContactsArchive._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive_ClientSequence" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive_ClientSequence.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive_ClientSequence.ClientSequence, 
+ S1_ContactsArchive_ClientSequence.RowIdentifier, 
+ S1_ContactsArchive_ClientSequence._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive_ClientSequenceAttended" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive_ClientSequenceAttended.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive_ClientSequenceAttended.ClientSequenceAttended, 
+ S1_ContactsArchive_ClientSequenceAttended.RowIdentifier, 
+ S1_ContactsArchive_ClientSequenceAttended._src_hash, 
+ S1_ContactsArchive_ClientSequenceAttended._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive_ClientSequenceAttendedFaceToFace" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive_ClientSequenceAttendedFaceToFace.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive_ClientSequenceAttendedFaceToFace.ClientSequenceAttendedFaceToFace, 
+ S1_ContactsArchive_ClientSequenceAttendedFaceToFace.RowIdentifier, 
+ S1_ContactsArchive_ClientSequenceAttendedFaceToFace._src_hash, 
+ S1_ContactsArchive_ClientSequenceAttendedFaceToFace._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive_LatestStaffContact" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive_LatestStaffContact.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive_LatestStaffContact.DateEventDateTime, 
+ S1_ContactsArchive_LatestStaffContact.IDDoneBy, 
+ S1_ContactsArchive_LatestStaffContact.IDReferralIn, 
+ S1_ContactsArchive_LatestStaffContact.StaffName, 
+ S1_ContactsArchive_LatestStaffContact._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive_NonLegalContacts" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive_NonLegalContacts.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive_NonLegalContacts.IDEvent, 
+ S1_ContactsArchive_NonLegalContacts._src_hash, 
+ S1_ContactsArchive_NonLegalContacts._when_processed_utc"/>
+  </source>
+  <source name="S1_ContactsArchive_TotalsByReferral" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ContactsArchive_TotalsByReferral.csv"/>
+    <property name="delimited.colums" value ="S1_ContactsArchive_TotalsByReferral.IDReferralIn, 
+ S1_ContactsArchive_TotalsByReferral._src_hash, 
+ S1_ContactsArchive_TotalsByReferral.MaxDateEvent, 
+ S1_ContactsArchive_TotalsByReferral.TotalContacts, 
+ S1_ContactsArchive_TotalsByReferral.TotalFaceToFaceContacts, 
+ S1_ContactsArchive_TotalsByReferral.TotalLegalContacts, 
+ S1_ContactsArchive_TotalsByReferral.TotalTime, 
+ S1_ContactsArchive_TotalsByReferral._when_processed_utc"/>
+  </source>
+  <source name="S1_CPA" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_CPA.csv"/>
+    <property name="delimited.colums" value ="S1_CPA.AgeAtReferral, 
+ S1_CPA.CPADateEnd, 
+ S1_CPA.CPADateStart, 
+ S1_CPA.CPAReviewDate, 
+ S1_CPA.DateCreation, 
+ S1_CPA.Directorate, 
+ S1_CPA.IDEvent, 
+ S1_CPA.IDOrganisation, 
+ S1_CPA.rid, 
+ S1_CPA.trid, 
+ S1_CPA.IDProfileCreatedBy, 
+ S1_CPA.IsMentalHealth, 
+ S1_CPA.mrid, 
+ S1_CPA.New, 
+ S1_CPA.Organisation, 
+ S1_CPA.RowIdentifier, 
+ S1_CPA._src_hash, 
+ S1_CPA.RwNo_Patient, 
+ S1_CPA.StaffName, 
+ S1_CPA._when_processed_utc"/>
+  </source>
+  <source name="S1_Demographics" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Demographics.csv"/>
+    <property name="delimited.colums" value ="S1_Demographics.AnticipatoryCarePlan, 
+ S1_Demographics.AnticipatoryCarePlanDate, 
+ S1_Demographics.AnticipatoryCarePlanFlag, 
+ S1_Demographics.AnticipatoryCarePlanSource, 
+ S1_Demographics.BAME_Flag, 
+ S1_Demographics.CCG_Code, 
+ S1_Demographics.CCG_Code_Postcode, 
+ S1_Demographics.CCG_Code_Practice, 
+ S1_Demographics.CCG_Name, 
+ S1_Demographics.CCG_Name_Postcode, 
+ S1_Demographics.CCG_Name_Practice, 
+ S1_Demographics.CTV3Code_AnticipatoryCarePlan, 
+ S1_Demographics.CTV3Code_Consent, 
+ S1_Demographics.CTV3Code_CoordinationSupportPlan, 
+ S1_Demographics.CTV3Code_Ethnicity, 
+ S1_Demographics.CTV3Code_Language, 
+ S1_Demographics.CYPHSCode_Ethnicity, 
+ S1_Demographics.CYPHS_Constant_Supervision_Care_Disability, 
+ S1_Demographics.CYPHS_Death_Location_Actual, 
+ S1_Demographics.CYPHS_Death_Location_Preferred, 
+ S1_Demographics.CYPHS_Death_Not_At_Preferred_Location_Reason, 
+ S1_Demographics.CYPHS_Educational_Assessment_Outcome, 
+ S1_Demographics.CYPHS_Health_Visitor_First_Antenatal_VisitDate, 
+ S1_Demographics.CYPHS_Language_Code, 
+ S1_Demographics.CYPHS_Looked_After_Children_Indicator, 
+ S1_Demographics.CYPHS_NHSNumber_Mother_Status_Indicator, 
+ S1_Demographics.CYPHS_Organisation_Code_Educational_Establishment, 
+ S1_Demographics.CYPHS_Person_Relationship_MainCarer, 
+ S1_Demographics.CYPHS_Person_Risk_Unexpected_Death, 
+ S1_Demographics.CYPHS_Preferred_Death_Location_Discussed, 
+ S1_Demographics.CYPHS_Safeguaring_Vulnerability_Factors_Indicator, 
+ S1_Demographics.CarerAdviceSupport, 
+ S1_Demographics.CarerAdviceSupportDate, 
+ S1_Demographics.CarerAdviceSupportDescription, 
+ S1_Demographics.Consent, 
+ S1_Demographics.ConsentDate, 
+ S1_Demographics.ConsentFlag, 
+ S1_Demographics.ConsentSource, 
+ S1_Demographics.CoordinationSupportPlan, 
+ S1_Demographics.CoordinationSupportPlanDate, 
+ S1_Demographics.CoordinationSupportPlanFlag, 
+ S1_Demographics.CoordinationSupportPlanSource, 
+ S1_Demographics.DateDeath, 
+ S1_Demographics.DateFrom, 
+ S1_Demographics.DeathIndicator, 
+ S1_Demographics.EmploymentMHSDSStatusCode, 
+ S1_Demographics.EmploymentMHSDSStatusDescription, 
+ S1_Demographics.Ethnicity, 
+ S1_Demographics.FallsAssessment_MFFADate, 
+ S1_Demographics.FallsOnwardReferralStatus, 
+ S1_Demographics.FallsOnwardReferralStatusDate, 
+ S1_Demographics.FallsOnwardReferralStatusDescription, 
+ S1_Demographics.FallsScreeningStatus, 
+ S1_Demographics.FallsScreeningStatusDate, 
+ S1_Demographics.FallsScreeningStatusDescription, 
+ S1_Demographics.Gender, 
+ S1_Demographics.HasCarer, 
+ S1_Demographics.HasCarerDate, 
+ S1_Demographics.HasCarerDescription, 
+ S1_Demographics.rid, 
+ S1_Demographics._src_hash, 
+ S1_Demographics.trid, 
+ S1_Demographics.IDPractice, 
+ S1_Demographics.IMD_Decile, 
+ S1_Demographics.IMD_Rank, 
+ S1_Demographics.LSOA2011, 
+ S1_Demographics.LanguageDescription, 
+ S1_Demographics.LocalAuthorityResidenceCode, 
+ S1_Demographics.LocalAuthorityResidenceName, 
+ S1_Demographics.MHSDSWeeklyHoursWorkedCode, 
+ S1_Demographics.MHSDSWeeklyHoursWorkedDescription, 
+ S1_Demographics.MHSDS_Ethnicity, 
+ S1_Demographics.MHSDS_EthnicityDescription, 
+ S1_Demographics.MaritalStatusCode, 
+ S1_Demographics.MaritalStatusDescription, 
+ S1_Demographics.mrid, 
+ S1_Demographics.NHSNumberValid, 
+ S1_Demographics.NationalDataOptOut, 
+ S1_Demographics.NeighbourhoodTeamCode, 
+ S1_Demographics.NeighbourhoodTeamDescription, 
+ S1_Demographics.OccupationCode, 
+ S1_Demographics.OccupationDescription, 
+ S1_Demographics.PCNCode, 
+ S1_Demographics.PCNName, 
+ S1_Demographics.Person_Relationship_MainCarer, 
+ S1_Demographics.PostFallsAssessmentLetter, 
+ S1_Demographics.PostFallsAssessmentLetterDate, 
+ S1_Demographics.Practice_Name, 
+ S1_Demographics.RockwoodFrailtyScore, 
+ S1_Demographics.RockwoodFrailtyScore_Date, 
+ S1_Demographics._when_processed_utc"/>
+  </source>
+  <source name="S1_Diagnosis" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Diagnosis.csv"/>
+    <property name="delimited.colums" value ="S1_Diagnosis.Code, 
+ S1_Diagnosis.CodePosition, 
+ S1_Diagnosis.CodeScheme, 
+ S1_Diagnosis.DateActivity, 
+ S1_Diagnosis.DateAuthorised, 
+ S1_Diagnosis.DateConfirmed, 
+ S1_Diagnosis.DateCreated, 
+ S1_Diagnosis.DateDiagnosis, 
+ S1_Diagnosis.DateEnded, 
+ S1_Diagnosis.DateEpisodeEnd, 
+ S1_Diagnosis.DateEpisodeStart, 
+ S1_Diagnosis.Description, 
+ S1_Diagnosis.IDAppointment, 
+ S1_Diagnosis.IDAttendance, 
+ S1_Diagnosis.IDConsultantEvent, 
+ S1_Diagnosis.IDOrganisation, 
+ S1_Diagnosis.rid, 
+ S1_Diagnosis.trid, 
+ S1_Diagnosis.IDPatientRegistration, 
+ S1_Diagnosis.IDProfileConsultant, 
+ S1_Diagnosis.IDReferralIn, 
+ S1_Diagnosis.IdProfileCreatedBy, 
+ S1_Diagnosis.Laterality, 
+ S1_Diagnosis.New, 
+ S1_Diagnosis.RowIdentifier, 
+ S1_Diagnosis._src_hash, 
+ S1_Diagnosis.RwNo_Patient, 
+ S1_Diagnosis.RwNo_PatientPrimary, 
+ S1_Diagnosis.Site, 
+ S1_Diagnosis.TypeOfEpisode, 
+ S1_Diagnosis.mrid, 
+ S1_Diagnosis._when_processed_utc"/>
+  </source>
+  <source name="S1_Disability" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Disability.csv"/>
+    <property name="delimited.colums" value ="S1_Disability.CPFTGroup, 
+ S1_Disability.CPFT_ServiceCode, 
+ S1_Disability.CPFT_ServiceDescription, 
+ S1_Disability.CTV3Code, 
+ S1_Disability.CTV3Text, 
+ S1_Disability.CYPHS_Disability_Code, 
+ S1_Disability.DateEvent, 
+ S1_Disability.Directorate, 
+ S1_Disability.IDDoneBy, 
+ S1_Disability.IDEvent, 
+ S1_Disability.IDOrganisation, 
+ S1_Disability.rid, 
+ S1_Disability.trid, 
+ S1_Disability.IDReferralIn, 
+ S1_Disability.IDTemplate, 
+ S1_Disability.IsMentalHealth, 
+ S1_Disability.RowIdentifier, 
+ S1_Disability._src_hash, 
+ S1_Disability.SNOMEDCode, 
+ S1_Disability.SNOMEDText, 
+ S1_Disability.StaffName, 
+ S1_Disability.TemplateName, 
+ S1_Disability.mrid, 
+ S1_Disability._when_processed_utc"/>
+  </source>
+  <source name="S1_DisabilityImpactPerception" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_DisabilityImpactPerception.csv"/>
+    <property name="delimited.colums" value ="S1_DisabilityImpactPerception.CPFTGroup, 
+ S1_DisabilityImpactPerception.CPFT_ServiceCode, 
+ S1_DisabilityImpactPerception.CPFT_ServiceDescription, 
+ S1_DisabilityImpactPerception.CTV3Code, 
+ S1_DisabilityImpactPerception.CTV3Text, 
+ S1_DisabilityImpactPerception.CYPHS_Disability_Impact_Perception, 
+ S1_DisabilityImpactPerception.DateEvent, 
+ S1_DisabilityImpactPerception.Directorate, 
+ S1_DisabilityImpactPerception.IDDoneBy, 
+ S1_DisabilityImpactPerception.IDEvent, 
+ S1_DisabilityImpactPerception.IDOrganisation, 
+ S1_DisabilityImpactPerception.rid, 
+ S1_DisabilityImpactPerception.trid, 
+ S1_DisabilityImpactPerception.IDReferralIn, 
+ S1_DisabilityImpactPerception.IDTemplate, 
+ S1_DisabilityImpactPerception.IsMentalHealth, 
+ S1_DisabilityImpactPerception.RowIdentifier, 
+ S1_DisabilityImpactPerception._src_hash, 
+ S1_DisabilityImpactPerception.SNOMEDCode, 
+ S1_DisabilityImpactPerception.SNOMEDText, 
+ S1_DisabilityImpactPerception.StaffName, 
+ S1_DisabilityImpactPerception.TemplateName, 
+ S1_DisabilityImpactPerception.mrid, 
+ S1_DisabilityImpactPerception._when_processed_utc"/>
+  </source>
+  <source name="S1_Employment" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Employment.csv"/>
+    <property name="delimited.colums" value ="S1_Employment.CPFTGroup, 
+ S1_Employment.CTV3Code, 
+ S1_Employment.CTV3Text, 
+ S1_Employment.DateEvent, 
+ S1_Employment.DateEventRecorded, 
+ S1_Employment.Directorate, 
+ S1_Employment.IDDoneBy, 
+ S1_Employment.IDOrganisation, 
+ S1_Employment.rid, 
+ S1_Employment.trid, 
+ S1_Employment.IDReferralIn, 
+ S1_Employment.IDTemplate, 
+ S1_Employment.IsLatest, 
+ S1_Employment.IsMentalHealth, 
+ S1_Employment.MHSDSCode, 
+ S1_Employment.MHSDSEmploymentStatus, 
+ S1_Employment.mrid, 
+ S1_Employment.Organisation, 
+ S1_Employment.RowIdentifier, 
+ S1_Employment._src_hash, 
+ S1_Employment.RwNo, 
+ S1_Employment.SNOMEDCode, 
+ S1_Employment.SNOMEDText, 
+ S1_Employment.StaffName, 
+ S1_Employment.TemplateName, 
+ S1_Employment.TemplateVersion, 
+ S1_Employment._when_processed_utc"/>
+  </source>
+  <source name="S1_Event" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Event.csv"/>
+    <property name="delimited.colums" value ="S1_Event.ContactLocation, 
+ S1_Event.ContactLocationDescription, 
+ S1_Event.ContactMethod, 
+ S1_Event.ContactMethodDescription, 
+ S1_Event.IDEvent, 
+ S1_Event.IDReferralIn, 
+ S1_Event.RowIdentifier, 
+ S1_Event._src_hash, 
+ S1_Event._when_processed_utc"/>
+  </source>
+  <source name="S1_FreeText_Honos_Scoring_Answers" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_FreeText_Honos_Scoring_Answers.csv"/>
+    <property name="delimited.colums" value ="S1_FreeText_Honos_Scoring_Answers.FreeText, 
+ S1_FreeText_Honos_Scoring_Answers.Qno, 
+ S1_FreeText_Honos_Scoring_Answers.Question, 
+ S1_FreeText_Honos_Scoring_Answers.Score, 
+ S1_FreeText_Honos_Scoring_Answers.crate_pk, 
+ S1_FreeText_Honos_Scoring_Answers._src_hash, 
+ S1_FreeText_Honos_Scoring_Answers._when_processed_utc"/>
+  </source>
+  <source name="S1_FreeText_Honos_Scoring_Questions" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_FreeText_Honos_Scoring_Questions.csv"/>
+    <property name="delimited.colums" value ="S1_FreeText_Honos_Scoring_Questions.ConceptID, 
+ S1_FreeText_Honos_Scoring_Questions.Qno, 
+ S1_FreeText_Honos_Scoring_Questions.Question, 
+ S1_FreeText_Honos_Scoring_Questions.crate_pk, 
+ S1_FreeText_Honos_Scoring_Questions._src_hash, 
+ S1_FreeText_Honos_Scoring_Questions._when_processed_utc"/>
+  </source>
+  <source name="S1_InpatientBedClosure" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_InpatientBedClosure.csv"/>
+    <property name="delimited.colums" value ="S1_InpatientBedClosure.BedClosureReason, 
+ S1_InpatientBedClosure.BedClosureReasonDescription, 
+ S1_InpatientBedClosure.BedDeleted, 
+ S1_InpatientBedClosure.BedName, 
+ S1_InpatientBedClosure.CPFTGroup, 
+ S1_InpatientBedClosure.CPFT_ServiceCode, 
+ S1_InpatientBedClosure.CPFT_ServiceDescription, 
+ S1_InpatientBedClosure.DateBedClosureEnd, 
+ S1_InpatientBedClosure.DateBedClosureStart, 
+ S1_InpatientBedClosure.DateDeleted, 
+ S1_InpatientBedClosure.Directorate, 
+ S1_InpatientBedClosure.IDLocation, 
+ S1_InpatientBedClosure.IDOrganisation, 
+ S1_InpatientBedClosure.IsMentalHealth, 
+ S1_InpatientBedClosure.Organisation, 
+ S1_InpatientBedClosure.RowIdentifier, 
+ S1_InpatientBedClosure.WardID, 
+ S1_InpatientBedClosure.WardName, 
+ S1_InpatientBedClosure._when_processed_utc"/>
+  </source>
+  <source name="S1_InpatientWardStay" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_InpatientWardStay.csv"/>
+    <property name="delimited.colums" value ="S1_InpatientWardStay.DateCreated, 
+ S1_InpatientWardStay.DateEnd, 
+ S1_InpatientWardStay.DateExpectedEnd, 
+ S1_InpatientWardStay.DateStayStart, 
+ S1_InpatientWardStay.IDHospitalAdmissionAndDischarge, 
+ S1_InpatientWardStay.IDOrganisation, 
+ S1_InpatientWardStay.rid, 
+ S1_InpatientWardStay.trid, 
+ S1_InpatientWardStay.IDReferralIn, 
+ S1_InpatientWardStay.IsMentalHealth, 
+ S1_InpatientWardStay.Organisation, 
+ S1_InpatientWardStay.PlaceName, 
+ S1_InpatientWardStay.RowIdentifier, 
+ S1_InpatientWardStay._src_hash, 
+ S1_InpatientWardStay.WardStayOrder, 
+ S1_InpatientWardStay.mrid, 
+ S1_InpatientWardStay._when_processed_utc"/>
+  </source>
+  <source name="S1_Medical_History_Previous_Diagnosis" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Medical_History_Previous_Diagnosis.csv"/>
+    <property name="delimited.colums" value ="S1_Medical_History_Previous_Diagnosis.CPFTGroup, 
+ S1_Medical_History_Previous_Diagnosis.CPFT_ServiceCode, 
+ S1_Medical_History_Previous_Diagnosis.CPFT_ServiceDescription, 
+ S1_Medical_History_Previous_Diagnosis.CTV3Code, 
+ S1_Medical_History_Previous_Diagnosis.CTV3Text, 
+ S1_Medical_History_Previous_Diagnosis.DateEvent, 
+ S1_Medical_History_Previous_Diagnosis.Directorate, 
+ S1_Medical_History_Previous_Diagnosis.IDDoneBy, 
+ S1_Medical_History_Previous_Diagnosis.IDOrganisation, 
+ S1_Medical_History_Previous_Diagnosis.rid, 
+ S1_Medical_History_Previous_Diagnosis.trid, 
+ S1_Medical_History_Previous_Diagnosis.IDReferralIn, 
+ S1_Medical_History_Previous_Diagnosis.IDTemplate, 
+ S1_Medical_History_Previous_Diagnosis.IsMentalHealth, 
+ S1_Medical_History_Previous_Diagnosis.RowIdentifier, 
+ S1_Medical_History_Previous_Diagnosis._src_hash, 
+ S1_Medical_History_Previous_Diagnosis.SNOMEDCode, 
+ S1_Medical_History_Previous_Diagnosis.SNOMEDText, 
+ S1_Medical_History_Previous_Diagnosis.StaffName, 
+ S1_Medical_History_Previous_Diagnosis.TemplateName, 
+ S1_Medical_History_Previous_Diagnosis.mrid, 
+ S1_Medical_History_Previous_Diagnosis._when_processed_utc"/>
+  </source>
+  <source name="S1_NDOptOutPreference" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_NDOptOutPreference.csv"/>
+    <property name="delimited.colums" value ="S1_NDOptOutPreference.IDOrganisationVisibleTo, 
+ S1_NDOptOutPreference.rid, 
+ S1_NDOptOutPreference.trid, 
+ S1_NDOptOutPreference.New, 
+ S1_NDOptOutPreference.RowIdentifier, 
+ S1_NDOptOutPreference._src_hash, 
+ S1_NDOptOutPreference.mrid, 
+ S1_NDOptOutPreference._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Congenital_Hyperthyroidism" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.CPFTGroup, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.CTV3Code, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.CTV3Text, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.CYPHS_Newborn_Bloodspot_Congenital_Hyperthyroidism, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.DateEvent, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.Directorate, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.IDDoneBy, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.IDOrganisation, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.rid, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.trid, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.IDReferralIn, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.IDTemplate, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.RowIdentifier, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism._src_hash, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.StaffName, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.TemplateName, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism.mrid, 
+ S1_Newborn_Bloodspot_Congenital_Hyperthyroidism._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Cystic_Fibrosis" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Cystic_Fibrosis.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Cystic_Fibrosis.CPFTGroup, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.CTV3Code, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.CTV3Text, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.CYPHS_Newborn_Bloodspot_Cystic_Fibrosis, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.DateEvent, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.Directorate, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.IDDoneBy, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.IDOrganisation, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.rid, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.trid, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.IDReferralIn, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.IDTemplate, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.RowIdentifier, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis._src_hash, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.StaffName, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.TemplateName, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis.mrid, 
+ S1_Newborn_Bloodspot_Cystic_Fibrosis._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Dehydrogenase_Deficiency" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.CPFTGroup, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.CTV3Code, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.CTV3Text, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.CYPHS_Newborn_Bloodspot_Dehydrogenase_Deficiency, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.DateEvent, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.Directorate, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.IDDoneBy, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.IDOrganisation, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.rid, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.trid, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.IDReferralIn, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.IDTemplate, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.RowIdentifier, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency._src_hash, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.StaffName, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.TemplateName, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency.mrid, 
+ S1_Newborn_Bloodspot_Dehydrogenase_Deficiency._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.CPFTGroup, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.CTV3Code, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.CTV3Text, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.CYPHS_Newborn_Bloodspot_Glutaric_Aciduria_Type1, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.DateEvent, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.Directorate, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.IDDoneBy, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.IDOrganisation, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.rid, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.trid, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.IDReferralIn, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.IDTemplate, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.RowIdentifier, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1._src_hash, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.StaffName, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.TemplateName, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1.mrid, 
+ S1_Newborn_Bloodspot_Glutaric_Aciduria_Type1._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Homocystinuria" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Homocystinuria.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Homocystinuria.CPFTGroup, 
+ S1_Newborn_Bloodspot_Homocystinuria.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Homocystinuria.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Homocystinuria.CTV3Code, 
+ S1_Newborn_Bloodspot_Homocystinuria.CTV3Text, 
+ S1_Newborn_Bloodspot_Homocystinuria.CYPHS_Newborn_Bloodspot_Homocystinuria, 
+ S1_Newborn_Bloodspot_Homocystinuria.DateEvent, 
+ S1_Newborn_Bloodspot_Homocystinuria.Directorate, 
+ S1_Newborn_Bloodspot_Homocystinuria.IDDoneBy, 
+ S1_Newborn_Bloodspot_Homocystinuria.IDOrganisation, 
+ S1_Newborn_Bloodspot_Homocystinuria.rid, 
+ S1_Newborn_Bloodspot_Homocystinuria.trid, 
+ S1_Newborn_Bloodspot_Homocystinuria.IDReferralIn, 
+ S1_Newborn_Bloodspot_Homocystinuria.IDTemplate, 
+ S1_Newborn_Bloodspot_Homocystinuria.RowIdentifier, 
+ S1_Newborn_Bloodspot_Homocystinuria._src_hash, 
+ S1_Newborn_Bloodspot_Homocystinuria.StaffName, 
+ S1_Newborn_Bloodspot_Homocystinuria.TemplateName, 
+ S1_Newborn_Bloodspot_Homocystinuria.mrid, 
+ S1_Newborn_Bloodspot_Homocystinuria._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Isovaleric_Aciduria" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Isovaleric_Aciduria.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Isovaleric_Aciduria.CPFTGroup, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.CTV3Code, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.CTV3Text, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.CYPHS_Newborn_Bloodspot_Isovaleric_Aciduria, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.DateEvent, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.Directorate, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.IDDoneBy, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.IDOrganisation, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.rid, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.trid, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.IDReferralIn, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.IDTemplate, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.RowIdentifier, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria._src_hash, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.StaffName, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.TemplateName, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria.mrid, 
+ S1_Newborn_Bloodspot_Isovaleric_Aciduria._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Maple_Syrup_Urine" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Maple_Syrup_Urine.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Maple_Syrup_Urine.CPFTGroup, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.CTV3Code, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.CTV3Text, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.CYPHS_Newborn_Bloodspot_Maple_Syrup_Urine, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.DateEvent, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.Directorate, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.IDDoneBy, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.IDOrganisation, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.rid, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.trid, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.IDReferralIn, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.IDTemplate, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.RowIdentifier, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine._src_hash, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.StaffName, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.TemplateName, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine.mrid, 
+ S1_Newborn_Bloodspot_Maple_Syrup_Urine._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_Phenylketonuria" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_Phenylketonuria.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_Phenylketonuria.CPFTGroup, 
+ S1_Newborn_Bloodspot_Phenylketonuria.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_Phenylketonuria.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_Phenylketonuria.CTV3Code, 
+ S1_Newborn_Bloodspot_Phenylketonuria.CTV3Text, 
+ S1_Newborn_Bloodspot_Phenylketonuria.CYPHS_Newborn_Bloodspot_Phenylketonuria, 
+ S1_Newborn_Bloodspot_Phenylketonuria.DateEvent, 
+ S1_Newborn_Bloodspot_Phenylketonuria.Directorate, 
+ S1_Newborn_Bloodspot_Phenylketonuria.IDDoneBy, 
+ S1_Newborn_Bloodspot_Phenylketonuria.IDOrganisation, 
+ S1_Newborn_Bloodspot_Phenylketonuria.rid, 
+ S1_Newborn_Bloodspot_Phenylketonuria.trid, 
+ S1_Newborn_Bloodspot_Phenylketonuria.IDReferralIn, 
+ S1_Newborn_Bloodspot_Phenylketonuria.IDTemplate, 
+ S1_Newborn_Bloodspot_Phenylketonuria.RowIdentifier, 
+ S1_Newborn_Bloodspot_Phenylketonuria._src_hash, 
+ S1_Newborn_Bloodspot_Phenylketonuria.StaffName, 
+ S1_Newborn_Bloodspot_Phenylketonuria.TemplateName, 
+ S1_Newborn_Bloodspot_Phenylketonuria.mrid, 
+ S1_Newborn_Bloodspot_Phenylketonuria._when_processed_utc"/>
+  </source>
+  <source name="S1_Newborn_Bloodspot_SickleCell" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Newborn_Bloodspot_SickleCell.csv"/>
+    <property name="delimited.colums" value ="S1_Newborn_Bloodspot_SickleCell.CPFTGroup, 
+ S1_Newborn_Bloodspot_SickleCell.CPFT_ServiceCode, 
+ S1_Newborn_Bloodspot_SickleCell.CPFT_ServiceDescription, 
+ S1_Newborn_Bloodspot_SickleCell.CTV3Code, 
+ S1_Newborn_Bloodspot_SickleCell.CTV3Text, 
+ S1_Newborn_Bloodspot_SickleCell.CYPHS_Newborn_Bloodspot_SickleCell, 
+ S1_Newborn_Bloodspot_SickleCell.DateEvent, 
+ S1_Newborn_Bloodspot_SickleCell.Directorate, 
+ S1_Newborn_Bloodspot_SickleCell.IDDoneBy, 
+ S1_Newborn_Bloodspot_SickleCell.IDOrganisation, 
+ S1_Newborn_Bloodspot_SickleCell.rid, 
+ S1_Newborn_Bloodspot_SickleCell.trid, 
+ S1_Newborn_Bloodspot_SickleCell.IDReferralIn, 
+ S1_Newborn_Bloodspot_SickleCell.IDTemplate, 
+ S1_Newborn_Bloodspot_SickleCell.RowIdentifier, 
+ S1_Newborn_Bloodspot_SickleCell._src_hash, 
+ S1_Newborn_Bloodspot_SickleCell.StaffName, 
+ S1_Newborn_Bloodspot_SickleCell.TemplateName, 
+ S1_Newborn_Bloodspot_SickleCell.mrid, 
+ S1_Newborn_Bloodspot_SickleCell._when_processed_utc"/>
+  </source>
+  <source name="S1_OutOfHours" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_OutOfHours.csv"/>
+    <property name="delimited.colums" value ="S1_OutOfHours.AgeAtAttendance, 
+ S1_OutOfHours.AgeBand, 
+ S1_OutOfHours.AgeBandSort, 
+ S1_OutOfHours.CCG_Code, 
+ S1_OutOfHours.CCG_Code_Reporting, 
+ S1_OutOfHours.CCG_Name, 
+ S1_OutOfHours.CCG_Name_Reporting, 
+ S1_OutOfHours.CaseType, 
+ S1_OutOfHours.CloseCaseFollowUp, 
+ S1_OutOfHours.CloseCaseFollowUpDescription, 
+ S1_OutOfHours.ClosedCoreActivity, 
+ S1_OutOfHours.CoreActivityDescription, 
+ S1_OutOfHours.DDimerLevel, 
+ S1_OutOfHours.DDimerLevelBand, 
+ S1_OutOfHours.DDimerLevelValue, 
+ S1_OutOfHours.DVTScreening, 
+ S1_OutOfHours.DateClosed, 
+ S1_OutOfHours.DateInitialAssessment, 
+ S1_OutOfHours.DateStarted, 
+ S1_OutOfHours.DateTreatment, 
+ S1_OutOfHours.DateWalkedIn, 
+ S1_OutOfHours.DayOfWk, 
+ S1_OutOfHours.DayOfWkName, 
+ S1_OutOfHours.DidNotWait, 
+ S1_OutOfHours.Directorate, 
+ S1_OutOfHours.HourofDay, 
+ S1_OutOfHours.IDOOHCase, 
+ S1_OutOfHours.IDOrganisation, 
+ S1_OutOfHours.rid, 
+ S1_OutOfHours.trid, 
+ S1_OutOfHours.IDPatientSeq, 
+ S1_OutOfHours.IDPractice, 
+ S1_OutOfHours.IDPractice_Reporting, 
+ S1_OutOfHours.IDProfileEnteredBy, 
+ S1_OutOfHours.IsMentalHealth, 
+ S1_OutOfHours.mrid, 
+ S1_OutOfHours.NeighbourhoodTeamCode, 
+ S1_OutOfHours.NeighbourhoodTeamDescription, 
+ S1_OutOfHours.Organisation, 
+ S1_OutOfHours.PCNCode, 
+ S1_OutOfHours.PCNName, 
+ S1_OutOfHours.Practice_Name, 
+ S1_OutOfHours.Practice_Name_Reporting, 
+ S1_OutOfHours.ReAdmit7Days, 
+ S1_OutOfHours.RowIdentifier, 
+ S1_OutOfHours._src_hash, 
+ S1_OutOfHours.StaffName, 
+ S1_OutOfHours.StaffRole, 
+ S1_OutOfHours.TimeToAssessment_Mins, 
+ S1_OutOfHours.TimeToTreatment_Mins, 
+ S1_OutOfHours.TotalTime_Mins, 
+ S1_OutOfHours._when_processed_utc"/>
+  </source>
+  <source name="S1_OutOfHoursAction" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_OutOfHoursAction.csv"/>
+    <property name="delimited.colums" value ="S1_OutOfHoursAction.ActionType, 
+ S1_OutOfHoursAction.ActionTypeDescription, 
+ S1_OutOfHoursAction.DateAction, 
+ S1_OutOfHoursAction.DateEventRecorded, 
+ S1_OutOfHoursAction.IDCase, 
+ S1_OutOfHoursAction.IDOohCase, 
+ S1_OutOfHoursAction.IDOrganisation, 
+ S1_OutOfHoursAction.rid, 
+ S1_OutOfHoursAction.trid, 
+ S1_OutOfHoursAction.RowIdentifier, 
+ S1_OutOfHoursAction._src_hash, 
+ S1_OutOfHoursAction.RwNo, 
+ S1_OutOfHoursAction.mrid, 
+ S1_OutOfHoursAction._when_processed_utc"/>
+  </source>
+  <source name="S1_OutOfHoursAssessment" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_OutOfHoursAssessment.csv"/>
+    <property name="delimited.colums" value ="S1_OutOfHoursAssessment.AssessmentType, 
+ S1_OutOfHoursAssessment.AssessmentTypeDescription, 
+ S1_OutOfHoursAssessment.DateAssessment, 
+ S1_OutOfHoursAssessment.DateEventRecorded, 
+ S1_OutOfHoursAssessment.IDCase, 
+ S1_OutOfHoursAssessment.IDOohCase, 
+ S1_OutOfHoursAssessment.IDOrganisation, 
+ S1_OutOfHoursAssessment.rid, 
+ S1_OutOfHoursAssessment.trid, 
+ S1_OutOfHoursAssessment.Priority, 
+ S1_OutOfHoursAssessment.PriorityType, 
+ S1_OutOfHoursAssessment.RowIdentifier, 
+ S1_OutOfHoursAssessment._src_hash, 
+ S1_OutOfHoursAssessment.RwNo, 
+ S1_OutOfHoursAssessment.mrid, 
+ S1_OutOfHoursAssessment._when_processed_utc"/>
+  </source>
+  <source name="S1_OutOfHoursCaseOutcome" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_OutOfHoursCaseOutcome.csv"/>
+    <property name="delimited.colums" value ="S1_OutOfHoursCaseOutcome.Activity, 
+ S1_OutOfHoursCaseOutcome.ActivityDescription, 
+ S1_OutOfHoursCaseOutcome.ActivityDtValue, 
+ S1_OutOfHoursCaseOutcome.ActivityType, 
+ S1_OutOfHoursCaseOutcome.ActivityTypeDescription, 
+ S1_OutOfHoursCaseOutcome.IDOohCase, 
+ S1_OutOfHoursCaseOutcome.rid, 
+ S1_OutOfHoursCaseOutcome.trid, 
+ S1_OutOfHoursCaseOutcome.RowIdentifier, 
+ S1_OutOfHoursCaseOutcome._src_hash, 
+ S1_OutOfHoursCaseOutcome.RwNo, 
+ S1_OutOfHoursCaseOutcome.mrid, 
+ S1_OutOfHoursCaseOutcome._when_processed_utc"/>
+  </source>
+  <source name="S1_OutOfHoursSRCodeInformation" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_OutOfHoursSRCodeInformation.csv"/>
+    <property name="delimited.colums" value ="S1_OutOfHoursSRCodeInformation.CTV3Code, 
+ S1_OutOfHoursSRCodeInformation.CTV3Text, 
+ S1_OutOfHoursSRCodeInformation.Category, 
+ S1_OutOfHoursSRCodeInformation.CategoryDescription, 
+ S1_OutOfHoursSRCodeInformation.DateEvent, 
+ S1_OutOfHoursSRCodeInformation.DateEventRecorded, 
+ S1_OutOfHoursSRCodeInformation.rid, 
+ S1_OutOfHoursSRCodeInformation.trid, 
+ S1_OutOfHoursSRCodeInformation.IDReferralIn, 
+ S1_OutOfHoursSRCodeInformation.IsNumeric, 
+ S1_OutOfHoursSRCodeInformation.NumericValue, 
+ S1_OutOfHoursSRCodeInformation.RwNo, 
+ S1_OutOfHoursSRCodeInformation.SNOMEDCode, 
+ S1_OutOfHoursSRCodeInformation.SNOMEDText, 
+ S1_OutOfHoursSRCodeInformation.mrid, 
+ S1_OutOfHoursSRCodeInformation._when_processed_utc"/>
+  </source>
+  <source name="S1_OverseasVisitorChargingCategory" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_OverseasVisitorChargingCategory.csv"/>
+    <property name="delimited.colums" value ="S1_OverseasVisitorChargingCategory.DateEvent, 
+ S1_OverseasVisitorChargingCategory.DateEventRecorded, 
+ S1_OverseasVisitorChargingCategory.IDDoneBy, 
+ S1_OverseasVisitorChargingCategory.IDEvent, 
+ S1_OverseasVisitorChargingCategory.IDOrganisation, 
+ S1_OverseasVisitorChargingCategory.rid, 
+ S1_OverseasVisitorChargingCategory.trid, 
+ S1_OverseasVisitorChargingCategory.IDProfileEnteredBy, 
+ S1_OverseasVisitorChargingCategory.IDReferralIn, 
+ S1_OverseasVisitorChargingCategory.New, 
+ S1_OverseasVisitorChargingCategory.OverseasVisitorChargingCategory, 
+ S1_OverseasVisitorChargingCategory.RowIdentifier, 
+ S1_OverseasVisitorChargingCategory._src_hash, 
+ S1_OverseasVisitorChargingCategory.TextualEventDoneBy, 
+ S1_OverseasVisitorChargingCategory.mrid, 
+ S1_OverseasVisitorChargingCategory._when_processed_utc"/>
+  </source>
+  <source name="S1_Patient" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Patient.csv"/>
+    <property name="delimited.colums" value ="S1_Patient.DOB, 
+ S1_Patient.DateDeath, 
+ S1_Patient.DeathIndicator, 
+ S1_Patient.Gender, 
+ S1_Patient.rid, 
+ S1_Patient.trid, 
+ S1_Patient.mrid, 
+ S1_Patient.NationalDataOptOut, 
+ S1_Patient.RowIdentifier, 
+ S1_Patient.SpeaksEnglish, 
+ S1_Patient.SpineMatched, 
+ S1_Patient._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientAddress" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientAddress.csv"/>
+    <property name="delimited.colums" value ="S1_PatientAddress.DateEvent, 
+ S1_PatientAddress.DateEventRecorded, 
+ S1_PatientAddress.rid, 
+ S1_PatientAddress.trid, 
+ S1_PatientAddress.RowIdentifier, 
+ S1_PatientAddress._src_hash, 
+ S1_PatientAddress.mrid, 
+ S1_PatientAddress._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientContact" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientContact.csv"/>
+    <property name="delimited.colums" value ="S1_PatientContact.rid, 
+ S1_PatientContact.trid, 
+ S1_PatientContact.mrid, 
+ S1_PatientContact._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientEthnicity" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientEthnicity.csv"/>
+    <property name="delimited.colums" value ="S1_PatientEthnicity.CTV3Code, 
+ S1_PatientEthnicity.CTV3Text, 
+ S1_PatientEthnicity.DateEvent, 
+ S1_PatientEthnicity.DateEventRecorded, 
+ S1_PatientEthnicity.rid, 
+ S1_PatientEthnicity.trid, 
+ S1_PatientEthnicity.IDReferralIn, 
+ S1_PatientEthnicity.IsNumeric, 
+ S1_PatientEthnicity.NationalCode, 
+ S1_PatientEthnicity.NumericValue, 
+ S1_PatientEthnicity.RwNo, 
+ S1_PatientEthnicity.SNOMEDCode, 
+ S1_PatientEthnicity.SNOMEDText, 
+ S1_PatientEthnicity.mrid, 
+ S1_PatientEthnicity._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientGPPractice" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientGPPractice.csv"/>
+    <property name="delimited.colums" value ="S1_PatientGPPractice.CCG_Code, 
+ S1_PatientGPPractice.CCG_Name, 
+ S1_PatientGPPractice.DateFrom, 
+ S1_PatientGPPractice.DateTo, 
+ S1_PatientGPPractice.rid, 
+ S1_PatientGPPractice._src_hash, 
+ S1_PatientGPPractice.trid, 
+ S1_PatientGPPractice.IDPractice, 
+ S1_PatientGPPractice.NeighbourhoodTeamCode, 
+ S1_PatientGPPractice.NeighbourhoodTeamDescription, 
+ S1_PatientGPPractice.Practice_Name, 
+ S1_PatientGPPractice.RwNo, 
+ S1_PatientGPPractice.mrid, 
+ S1_PatientGPPractice._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientLanguageDeathOptions" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientLanguageDeathOptions.csv"/>
+    <property name="delimited.colums" value ="S1_PatientLanguageDeathOptions.CTV3Code, 
+ S1_PatientLanguageDeathOptions.CTV3Text, 
+ S1_PatientLanguageDeathOptions.Category, 
+ S1_PatientLanguageDeathOptions.CategoryDescription, 
+ S1_PatientLanguageDeathOptions.DateEvent, 
+ S1_PatientLanguageDeathOptions.DateEventRecorded, 
+ S1_PatientLanguageDeathOptions.rid, 
+ S1_PatientLanguageDeathOptions.trid, 
+ S1_PatientLanguageDeathOptions.IDReferralIn, 
+ S1_PatientLanguageDeathOptions.IsNumeric, 
+ S1_PatientLanguageDeathOptions.NationalCode, 
+ S1_PatientLanguageDeathOptions.NationalDescription, 
+ S1_PatientLanguageDeathOptions.NumericValue, 
+ S1_PatientLanguageDeathOptions.RwNo, 
+ S1_PatientLanguageDeathOptions.SNOMEDCode, 
+ S1_PatientLanguageDeathOptions.SNOMEDText, 
+ S1_PatientLanguageDeathOptions.mrid, 
+ S1_PatientLanguageDeathOptions._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientRelationship" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientRelationship.csv"/>
+    <property name="delimited.colums" value ="S1_PatientRelationship.CaresForPatient, 
+ S1_PatientRelationship.ContactOrder, 
+ S1_PatientRelationship.DateDeath, 
+ S1_PatientRelationship.DateEvent, 
+ S1_PatientRelationship.FinancialRepresentative, 
+ S1_PatientRelationship.HasParentalResponsibility, 
+ S1_PatientRelationship.rid, 
+ S1_PatientRelationship.trid, 
+ S1_PatientRelationship.IDRelationshipWithPatient, 
+ S1_PatientRelationship.NextOfKin, 
+ S1_PatientRelationship.PersonalGuardianOrProxy, 
+ S1_PatientRelationship.PrincipalCarerForPatient, 
+ S1_PatientRelationship.RelationshipType, 
+ S1_PatientRelationship.RelationshipWithSex, 
+ S1_PatientRelationship.mrid, 
+ S1_PatientRelationship._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientRelationshipMother" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientRelationshipMother.csv"/>
+    <property name="delimited.colums" value ="S1_PatientRelationshipMother.DateEvent, 
+ S1_PatientRelationshipMother.rid, 
+ S1_PatientRelationshipMother._src_hash, 
+ S1_PatientRelationshipMother.trid, 
+ S1_PatientRelationshipMother.IDRelationshipWithPatient, 
+ S1_PatientRelationshipMother.mrid, 
+ S1_PatientRelationshipMother._when_processed_utc"/>
+  </source>
+  <source name="S1_PatientSRCodeInformation" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PatientSRCodeInformation.csv"/>
+    <property name="delimited.colums" value ="S1_PatientSRCodeInformation.CTV3Code, 
+ S1_PatientSRCodeInformation.CTV3Text, 
+ S1_PatientSRCodeInformation.Category, 
+ S1_PatientSRCodeInformation.CategoryDescription, 
+ S1_PatientSRCodeInformation.DateEvent, 
+ S1_PatientSRCodeInformation.DateEventRecorded, 
+ S1_PatientSRCodeInformation.rid, 
+ S1_PatientSRCodeInformation.trid, 
+ S1_PatientSRCodeInformation.IDReferralIn, 
+ S1_PatientSRCodeInformation.IsNumeric, 
+ S1_PatientSRCodeInformation.NumericValue, 
+ S1_PatientSRCodeInformation.RwNo, 
+ S1_PatientSRCodeInformation.SNOMEDCode, 
+ S1_PatientSRCodeInformation.SNOMEDText, 
+ S1_PatientSRCodeInformation.mrid, 
+ S1_PatientSRCodeInformation._when_processed_utc"/>
+  </source>
+  <source name="S1_PersonAtRisk" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PersonAtRisk.csv"/>
+    <property name="delimited.colums" value ="S1_PersonAtRisk.CPFT_OrganisationDoneAt, 
+ S1_PersonAtRisk.DateAdded, 
+ S1_PersonAtRisk.DateRemoved, 
+ S1_PersonAtRisk.IDOrganisation, 
+ S1_PersonAtRisk.IDOrganisationVisibleTo, 
+ S1_PersonAtRisk.rid, 
+ S1_PersonAtRisk.trid, 
+ S1_PersonAtRisk.OrganisationVisibleTo, 
+ S1_PersonAtRisk.Organisation_IncludingOthers, 
+ S1_PersonAtRisk.ReasonForPlan, 
+ S1_PersonAtRisk.ReasonForPlanDescription, 
+ S1_PersonAtRisk.RemovalReason, 
+ S1_PersonAtRisk.RowIdentifier, 
+ S1_PersonAtRisk._src_hash, 
+ S1_PersonAtRisk.RwNo, 
+ S1_PersonAtRisk.mrid, 
+ S1_PersonAtRisk._when_processed_utc"/>
+  </source>
+  <source name="S1_PRISM_ReReferral" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_PRISM_ReReferral.csv"/>
+    <property name="delimited.colums" value ="S1_PRISM_ReReferral.DateDischarge, 
+ S1_PRISM_ReReferral.rid, 
+ S1_PRISM_ReReferral.trid, 
+ S1_PRISM_ReReferral.IDPractice, 
+ S1_PRISM_ReReferral.MonthYear, 
+ S1_PRISM_ReReferral.mrid, 
+ S1_PRISM_ReReferral.NeighbourhoodTeamCode, 
+ S1_PRISM_ReReferral.NeighbourhoodTeamDescription, 
+ S1_PRISM_ReReferral.Practice_Name, 
+ S1_PRISM_ReReferral.ReReferralDateTime, 
+ S1_PRISM_ReReferral.ReReferralDays, 
+ S1_PRISM_ReReferral.ReReferralDischargeDate, 
+ S1_PRISM_ReReferral.ReReferralGrouping, 
+ S1_PRISM_ReReferral.ReReferralNeighbourhoodTeam, 
+ S1_PRISM_ReReferral.ReReferralNeighbourhoodTeamCode, 
+ S1_PRISM_ReReferral.ReReferralPractice, 
+ S1_PRISM_ReReferral.ReReferralPracticeID, 
+ S1_PRISM_ReReferral.ReferralDateTime, 
+ S1_PRISM_ReReferral.YearMonth, 
+ S1_PRISM_ReReferral._when_processed_utc"/>
+  </source>
+  <source name="S1_Provisional_Diagnosis" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Provisional_Diagnosis.csv"/>
+    <property name="delimited.colums" value ="S1_Provisional_Diagnosis.CPFTGroup, 
+ S1_Provisional_Diagnosis.CPFT_ServiceCode, 
+ S1_Provisional_Diagnosis.CPFT_ServiceDescription, 
+ S1_Provisional_Diagnosis.CTV3Code, 
+ S1_Provisional_Diagnosis.CTV3Text, 
+ S1_Provisional_Diagnosis.DateEvent, 
+ S1_Provisional_Diagnosis.Directorate, 
+ S1_Provisional_Diagnosis.IDDoneBy, 
+ S1_Provisional_Diagnosis.IDOrganisation, 
+ S1_Provisional_Diagnosis.rid, 
+ S1_Provisional_Diagnosis.trid, 
+ S1_Provisional_Diagnosis.IDReferralIn, 
+ S1_Provisional_Diagnosis.IDTemplate, 
+ S1_Provisional_Diagnosis.IsMentalHealth, 
+ S1_Provisional_Diagnosis.RowIdentifier, 
+ S1_Provisional_Diagnosis._src_hash, 
+ S1_Provisional_Diagnosis.SNOMEDCode, 
+ S1_Provisional_Diagnosis.SNOMEDText, 
+ S1_Provisional_Diagnosis.StaffName, 
+ S1_Provisional_Diagnosis.TemplateName, 
+ S1_Provisional_Diagnosis.mrid, 
+ S1_Provisional_Diagnosis._when_processed_utc"/>
+  </source>
+  <source name="S1_QRisk" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_QRisk.csv"/>
+    <property name="delimited.colums" value ="S1_QRisk.Event_Date, 
+ S1_QRisk.Event_Done_At, 
+ S1_QRisk.Event_Done_At_ID, 
+ S1_QRisk.Numeric_Value, 
+ S1_QRisk.Numeric_Value_Text, 
+ S1_QRisk.Organisation_Name, 
+ S1_QRisk.Patient_ID, 
+ S1_QRisk.Read_Code, 
+ S1_QRisk.Registered_Practice_At_Time_Of_Event, 
+ S1_QRisk._when_processed_utc"/>
+  </source>
+  <source name="S1_ReferralAllocation" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ReferralAllocation.csv"/>
+    <property name="delimited.colums" value ="S1_ReferralAllocation.DateCreated, 
+ S1_ReferralAllocation.DateDeleted, 
+ S1_ReferralAllocation.DateEnd, 
+ S1_ReferralAllocation.DateStart, 
+ S1_ReferralAllocation.rid, 
+ S1_ReferralAllocation.trid, 
+ S1_ReferralAllocation.IDProfileDeletedBy, 
+ S1_ReferralAllocation.IDReferralIn, 
+ S1_ReferralAllocation.IDTeam, 
+ S1_ReferralAllocation.ISKeyTeam, 
+ S1_ReferralAllocation.RowIdentifier, 
+ S1_ReferralAllocation._src_hash, 
+ S1_ReferralAllocation.Status, 
+ S1_ReferralAllocation.TeamName, 
+ S1_ReferralAllocation.mrid, 
+ S1_ReferralAllocation._when_processed_utc"/>
+  </source>
+  <source name="S1_ReferralInReferralReason" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ReferralInReferralReason.csv"/>
+    <property name="delimited.colums" value ="S1_ReferralInReferralReason.rid, 
+ S1_ReferralInReferralReason.trid, 
+ S1_ReferralInReferralReason.IDReferralIn, 
+ S1_ReferralInReferralReason.PrimaryReferralReason, 
+ S1_ReferralInReferralReason.ReferralReason, 
+ S1_ReferralInReferralReason.ReferralReasonDescription, 
+ S1_ReferralInReferralReason.RowIdentifier, 
+ S1_ReferralInReferralReason._src_hash, 
+ S1_ReferralInReferralReason.RwNo, 
+ S1_ReferralInReferralReason.mrid, 
+ S1_ReferralInReferralReason._when_processed_utc"/>
+  </source>
+  <source name="S1_ReferralsIn" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ReferralsIn.csv"/>
+    <property name="delimited.colums" value ="S1_ReferralsIn.CCG_Code, 
+ S1_ReferralsIn.CCG_Code_Reporting, 
+ S1_ReferralsIn.CCG_Name, 
+ S1_ReferralsIn.CCG_Name_Reporting, 
+ S1_ReferralsIn.CPFTGroup, 
+ S1_ReferralsIn.CPFTReferralInterventionDescription, 
+ S1_ReferralsIn.CPFTReferralReasonDescription, 
+ S1_ReferralsIn.CPFTReferralSourceDescription, 
+ S1_ReferralsIn.CPFTUrgencyDescription, 
+ S1_ReferralsIn.CPFT_ServiceOfferedCode, 
+ S1_ReferralsIn.CPFT_ServiceOfferedDescription, 
+ S1_ReferralsIn.CYPHS_ReferralInterventionCode, 
+ S1_ReferralsIn.CYPHS_ReferralInterventionDescription, 
+ S1_ReferralsIn.CYPHS_ReferralReasonCode, 
+ S1_ReferralsIn.CYPHS_ReferralReasonDescription, 
+ S1_ReferralsIn.CYPHS_Referral_Closure_Date, 
+ S1_ReferralsIn.CYPHS_Referral_Closure_Reason, 
+ S1_ReferralsIn.CYPHS_Referral_Rejection_Date, 
+ S1_ReferralsIn.CYPHS_Referral_Rejection_Reason, 
+ S1_ReferralsIn.CYPHS_Referring_Care_Professional_Staff_Group, 
+ S1_ReferralsIn.CYPHS_Referring_Organisation_Code, 
+ S1_ReferralsIn.CYPHS_ServiceCode, 
+ S1_ReferralsIn.CYPHS_ServiceDescription, 
+ S1_ReferralsIn.CYPHS_SourceofReferralCode, 
+ S1_ReferralsIn.CYPHS_SourceofReferralDescription, 
+ S1_ReferralsIn.CYPHS_UrgencyCode, 
+ S1_ReferralsIn.CYPHS_UrgencyDescription, 
+ S1_ReferralsIn.CaseloadName, 
+ S1_ReferralsIn.CaseloadTeam, 
+ S1_ReferralsIn.DateDischarge, 
+ S1_ReferralsIn.DateEventRecorded, 
+ S1_ReferralsIn.DateOfAction, 
+ S1_ReferralsIn.Directorate, 
+ S1_ReferralsIn.DischargeLocation, 
+ S1_ReferralsIn.DischargeLocationDescription, 
+ S1_ReferralsIn.DischargeReason, 
+ S1_ReferralsIn.DischargeReasonDescription, 
+ S1_ReferralsIn.IDCaseload, 
+ S1_ReferralsIn.IDOrganisationDoneAt, 
+ S1_ReferralsIn.rid, 
+ S1_ReferralsIn.trid, 
+ S1_ReferralsIn.IDPractice, 
+ S1_ReferralsIn.IDPractice_Reporting, 
+ S1_ReferralsIn.IDReferralIn, 
+ S1_ReferralsIn.IDReferralLocal, 
+ S1_ReferralsIn.IDReferredTo, 
+ S1_ReferralsIn.IDReferrer, 
+ S1_ReferralsIn.Intervention, 
+ S1_ReferralsIn.InterventionDescription, 
+ S1_ReferralsIn.IsMentalHealth, 
+ S1_ReferralsIn.LastClinician, 
+ S1_ReferralsIn.LastClinicianDate, 
+ S1_ReferralsIn.mrid, 
+ S1_ReferralsIn.NeighbourhoodTeamCode, 
+ S1_ReferralsIn.NeighbourhoodTeamDescription, 
+ S1_ReferralsIn.Organisation, 
+ S1_ReferralsIn.Outcome, 
+ S1_ReferralsIn.PCNCode, 
+ S1_ReferralsIn.PCNName, 
+ S1_ReferralsIn.Practice_Name, 
+ S1_ReferralsIn.Practice_Name_Reporting, 
+ S1_ReferralsIn.PrimaryReason, 
+ S1_ReferralsIn.PrimaryReferralReasonDescription, 
+ S1_ReferralsIn.ReReferral, 
+ S1_ReferralsIn.ReferralDate, 
+ S1_ReferralsIn.ReferralDateTime, 
+ S1_ReferralsIn.ReferralEndReason, 
+ S1_ReferralsIn.ReferralEndReasonDescription, 
+ S1_ReferralsIn.ReferralLoSDays, 
+ S1_ReferralsIn.ReferralLoSWeeks, 
+ S1_ReferralsIn.ReferralMedium, 
+ S1_ReferralsIn.ReferralMediumDescription, 
+ S1_ReferralsIn.ReferralOutcome, 
+ S1_ReferralsIn.ReferralPriority, 
+ S1_ReferralsIn.ReferralPriorityDescription, 
+ S1_ReferralsIn.ReferralReasonCode1, 
+ S1_ReferralsIn.ReferralReasonCode2, 
+ S1_ReferralsIn.ReferralReasonCode3, 
+ S1_ReferralsIn.ReferralReasonDescription1, 
+ S1_ReferralsIn.ReferralReasonDescription2, 
+ S1_ReferralsIn.ReferralReasonDescription3, 
+ S1_ReferralsIn.ReferralSourceDescription, 
+ S1_ReferralsIn.ReferralStatus, 
+ S1_ReferralsIn.ReferralStatusIDDoneBy, 
+ S1_ReferralsIn.ReferralStatus_StaffName, 
+ S1_ReferralsIn.ReferralUrgency, 
+ S1_ReferralsIn.Referrer_Additional_Information, 
+ S1_ReferralsIn.Referring_Organisation_Code, 
+ S1_ReferralsIn.Referring_Organisation_Type, 
+ S1_ReferralsIn.RowIdentifier, 
+ S1_ReferralsIn._src_hash, 
+ S1_ReferralsIn.ServiceOffered, 
+ S1_ReferralsIn.ServiceOfferedDescription, 
+ S1_ReferralsIn.ServiceType, 
+ S1_ReferralsIn.SourceReferral, 
+ S1_ReferralsIn.SourceTableReferrer, 
+ S1_ReferralsIn.SourceTableReferrerMapping, 
+ S1_ReferralsIn.TeamName, 
+ S1_ReferralsIn.TotalContacts, 
+ S1_ReferralsIn.TotalTime, 
+ S1_ReferralsIn.Urgency, 
+ S1_ReferralsIn._when_processed_utc"/>
+  </source>
+  <source name="S1_ReferralsOut" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_ReferralsOut.csv"/>
+    <property name="delimited.colums" value ="S1_ReferralsOut.CCG_Code, 
+ S1_ReferralsOut.CCG_Name, 
+ S1_ReferralsOut.CPFTGroup, 
+ S1_ReferralsOut.CYPHS_OrganisationCodeReceiving, 
+ S1_ReferralsOut.DateEvent, 
+ S1_ReferralsOut.Directorate, 
+ S1_ReferralsOut.IDEvent, 
+ S1_ReferralsOut.IDOrganisation, 
+ S1_ReferralsOut.rid, 
+ S1_ReferralsOut.trid, 
+ S1_ReferralsOut.IDPractice, 
+ S1_ReferralsOut.IsMentalHealth, 
+ S1_ReferralsOut.mrid, 
+ S1_ReferralsOut.NeighbourhoodTeamCode, 
+ S1_ReferralsOut.NeighbourhoodTeamDescription, 
+ S1_ReferralsOut.Organisation, 
+ S1_ReferralsOut.Practice_Name, 
+ S1_ReferralsOut.PrimaryDiagnosis, 
+ S1_ReferralsOut.Reason, 
+ S1_ReferralsOut.ReasonDescription, 
+ S1_ReferralsOut.RecipientDescription, 
+ S1_ReferralsOut.RecipientID, 
+ S1_ReferralsOut.ReferralOutStatusDesc, 
+ S1_ReferralsOut.RowIdentifier, 
+ S1_ReferralsOut._src_hash, 
+ S1_ReferralsOut.SNOMEDPrimaryDiagnosis, 
+ S1_ReferralsOut.StatusOfReferralOut, 
+ S1_ReferralsOut.Urgency, 
+ S1_ReferralsOut.UrgencyDescription, 
+ S1_ReferralsOut._when_processed_utc"/>
+  </source>
+  <source name="S1_RiskReview" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_RiskReview.csv"/>
+    <property name="delimited.colums" value ="S1_RiskReview.DateEventRecorded, 
+ S1_RiskReview.IDOrganisation, 
+ S1_RiskReview.rid, 
+ S1_RiskReview.trid, 
+ S1_RiskReview.IsMentalHealth, 
+ S1_RiskReview.New, 
+ S1_RiskReview.Organisation, 
+ S1_RiskReview.RiskCategory, 
+ S1_RiskReview.RiskRating, 
+ S1_RiskReview.RiskReviewDate, 
+ S1_RiskReview.RiskReviewDueDate, 
+ S1_RiskReview.RiskSubCategory, 
+ S1_RiskReview.RowIdentifier, 
+ S1_RiskReview._src_hash, 
+ S1_RiskReview.mrid, 
+ S1_RiskReview._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingCases" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingCases.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingCases.CPFTGroup, 
+ S1_SafeguardingCases.CPFT_ServiceCode, 
+ S1_SafeguardingCases.CPFT_ServiceDescription, 
+ S1_SafeguardingCases.CaseId, 
+ S1_SafeguardingCases.DateClosed, 
+ S1_SafeguardingCases.DateCreated, 
+ S1_SafeguardingCases.Directorate, 
+ S1_SafeguardingCases.IDOrganisationVisibleTo, 
+ S1_SafeguardingCases.IDProfileAllocatedTo, 
+ S1_SafeguardingCases.IDProfileClosedBy, 
+ S1_SafeguardingCases.IDProfileCreatedBy, 
+ S1_SafeguardingCases.IDProfilePinnedBy, 
+ S1_SafeguardingCases.IDTeamAllocatedTo, 
+ S1_SafeguardingCases.IsMentalHealth, 
+ S1_SafeguardingCases.IsSection42, 
+ S1_SafeguardingCases.IsSeriousCaseReview, 
+ S1_SafeguardingCases.New, 
+ S1_SafeguardingCases.Organisation, 
+ S1_SafeguardingCases.RiskLevel, 
+ S1_SafeguardingCases.RowIdentifier, 
+ S1_SafeguardingCases._src_hash, 
+ S1_SafeguardingCases.SafeguardingOutcome, 
+ S1_SafeguardingCases.SafeguardingOutcomeDescription, 
+ S1_SafeguardingCases.TeamAllocatedToName, 
+ S1_SafeguardingCases.TypeOfCall, 
+ S1_SafeguardingCases.TypeOfCallDescription, 
+ S1_SafeguardingCases._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingCaseStageQuestions" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingCaseStageQuestions.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingCaseStageQuestions.CPFTGroup, 
+ S1_SafeguardingCaseStageQuestions.CPFT_ServiceCode, 
+ S1_SafeguardingCaseStageQuestions.CPFT_ServiceDescription, 
+ S1_SafeguardingCaseStageQuestions.CurrentRiskToPerson, 
+ S1_SafeguardingCaseStageQuestions.DateAnswered, 
+ S1_SafeguardingCaseStageQuestions.Directorate, 
+ S1_SafeguardingCaseStageQuestions.HasMentalCapacity, 
+ S1_SafeguardingCaseStageQuestions.IDOrganisationVisibleTo, 
+ S1_SafeguardingCaseStageQuestions.IDProfileAnsweredBy, 
+ S1_SafeguardingCaseStageQuestions.IDSafeGuardingCase, 
+ S1_SafeguardingCaseStageQuestions.IDSafeguardingCaseStage, 
+ S1_SafeguardingCaseStageQuestions.IDSafeguardingPersonAtRisk, 
+ S1_SafeguardingCaseStageQuestions.IsMentalHealth, 
+ S1_SafeguardingCaseStageQuestions.MentalCapacityAssessmentRequired, 
+ S1_SafeguardingCaseStageQuestions.New, 
+ S1_SafeguardingCaseStageQuestions.Organisation, 
+ S1_SafeguardingCaseStageQuestions.RowIdentifier, 
+ S1_SafeguardingCaseStageQuestions._src_hash, 
+ S1_SafeguardingCaseStageQuestions.StaffName, 
+ S1_SafeguardingCaseStageQuestions._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingCaseStages" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingCaseStages.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingCaseStages.ActionedbyStaff, 
+ S1_SafeguardingCaseStages.CPFTGroup, 
+ S1_SafeguardingCaseStages.CPFT_ServiceCode, 
+ S1_SafeguardingCaseStages.CPFT_ServiceDescription, 
+ S1_SafeguardingCaseStages.Comments, 
+ S1_SafeguardingCaseStages.CreatedbyStaff, 
+ S1_SafeguardingCaseStages.CurrentRiskToOthers, 
+ S1_SafeguardingCaseStages.DateActioned, 
+ S1_SafeguardingCaseStages.DateCreated, 
+ S1_SafeguardingCaseStages.Directorate, 
+ S1_SafeguardingCaseStages.IDOrganisationVisibleTo, 
+ S1_SafeguardingCaseStages.IDProfileActioned, 
+ S1_SafeguardingCaseStages.IDProfileCreatedBy, 
+ S1_SafeguardingCaseStages.IDSafeguardingCase, 
+ S1_SafeguardingCaseStages.IsMentalHealth, 
+ S1_SafeguardingCaseStages.IsMultiAgency, 
+ S1_SafeguardingCaseStages.New, 
+ S1_SafeguardingCaseStages.Organisation, 
+ S1_SafeguardingCaseStages.RowIdentifier, 
+ S1_SafeguardingCaseStages._src_hash, 
+ S1_SafeguardingCaseStages.Stage, 
+ S1_SafeguardingCaseStages.StageDate, 
+ S1_SafeguardingCaseStages._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingIncidentDetails" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingIncidentDetails.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingIncidentDetails.AddressBookEntryLocationOrganisation, 
+ S1_SafeguardingIncidentDetails.AllegedAbuseDate, 
+ S1_SafeguardingIncidentDetails.CPFTGRoup, 
+ S1_SafeguardingIncidentDetails.CPFT_ServiceCode, 
+ S1_SafeguardingIncidentDetails.CPFT_ServiceDescription, 
+ S1_SafeguardingIncidentDetails.ChildServicesInformed, 
+ S1_SafeguardingIncidentDetails.DateCreated, 
+ S1_SafeguardingIncidentDetails.Details, 
+ S1_SafeguardingIncidentDetails.Directorate, 
+ S1_SafeguardingIncidentDetails.IDAddressBookEntryLocation, 
+ S1_SafeguardingIncidentDetails.IDOrganisationVisibleTo, 
+ S1_SafeguardingIncidentDetails.IDProfileCreatedBy, 
+ S1_SafeguardingIncidentDetails.IDSafeguardingCase, 
+ S1_SafeguardingIncidentDetails.IsMentalHealth, 
+ S1_SafeguardingIncidentDetails.LocationName, 
+ S1_SafeguardingIncidentDetails.LocationType, 
+ S1_SafeguardingIncidentDetails.LocationTypeDescription, 
+ S1_SafeguardingIncidentDetails.ManagerName, 
+ S1_SafeguardingIncidentDetails.ManagerTelephone, 
+ S1_SafeguardingIncidentDetails.New, 
+ S1_SafeguardingIncidentDetails.Organisation, 
+ S1_SafeguardingIncidentDetails.OrganisationName, 
+ S1_SafeguardingIncidentDetails.OrganisationType, 
+ S1_SafeguardingIncidentDetails.OrganisationTypeDescription, 
+ S1_SafeguardingIncidentDetails.PoliceInformed, 
+ S1_SafeguardingIncidentDetails.RowIdentifier, 
+ S1_SafeguardingIncidentDetails._src_hash, 
+ S1_SafeguardingIncidentDetails._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingPersonAlleged" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingPersonAlleged.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingPersonAlleged.Address, 
+ S1_SafeguardingPersonAlleged.AreOthersAtRisk, 
+ S1_SafeguardingPersonAlleged.CPFTGroup, 
+ S1_SafeguardingPersonAlleged.CPFT_ServiceCode, 
+ S1_SafeguardingPersonAlleged.CPFT_ServiceDescription, 
+ S1_SafeguardingPersonAlleged.CaresForOthers, 
+ S1_SafeguardingPersonAlleged.ChildProtectionIssues, 
+ S1_SafeguardingPersonAlleged.DateCreated, 
+ S1_SafeguardingPersonAlleged.DateOfBirth, 
+ S1_SafeguardingPersonAlleged.Directorate, 
+ S1_SafeguardingPersonAlleged.EmployingOrganisation, 
+ S1_SafeguardingPersonAlleged.Ethnicity, 
+ S1_SafeguardingPersonAlleged.IDOrganisationVisibleTo, 
+ S1_SafeguardingPersonAlleged.IDProfileCreatedBy, 
+ S1_SafeguardingPersonAlleged.IDSafeguardingCase, 
+ S1_SafeguardingPersonAlleged.IsAwareOfConcern, 
+ S1_SafeguardingPersonAlleged.IsChildProtectionUnitAware, 
+ S1_SafeguardingPersonAlleged.IsMentalHealth, 
+ S1_SafeguardingPersonAlleged.IsVulnerable, 
+ S1_SafeguardingPersonAlleged.New, 
+ S1_SafeguardingPersonAlleged.Occupation, 
+ S1_SafeguardingPersonAlleged.Organisation, 
+ S1_SafeguardingPersonAlleged.OthersAtRiskDetails, 
+ S1_SafeguardingPersonAlleged.PersonalBudget, 
+ S1_SafeguardingPersonAlleged.RowIdentifier, 
+ S1_SafeguardingPersonAlleged._src_hash, 
+ S1_SafeguardingPersonAlleged.ServiceUserGroup, 
+ S1_SafeguardingPersonAlleged.ServiceUserGroupDescription, 
+ S1_SafeguardingPersonAlleged.Sex, 
+ S1_SafeguardingPersonAlleged._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingPersonAtRisk" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingPersonAtRisk.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingPersonAtRisk.Address, 
+ S1_SafeguardingPersonAtRisk.CPFTGroup, 
+ S1_SafeguardingPersonAtRisk.CPFT_ServiceCode, 
+ S1_SafeguardingPersonAtRisk.CPFT_ServiceDescription, 
+ S1_SafeguardingPersonAtRisk.CanBeContactedAtAddress, 
+ S1_SafeguardingPersonAtRisk.CapacityAssessed, 
+ S1_SafeguardingPersonAtRisk.CommunicationNeeds, 
+ S1_SafeguardingPersonAtRisk.CommunicationNeedsDescription, 
+ S1_SafeguardingPersonAtRisk.ConsentGiven, 
+ S1_SafeguardingPersonAtRisk.DateOfBirth, 
+ S1_SafeguardingPersonAtRisk.DateRecorded, 
+ S1_SafeguardingPersonAtRisk.Directorate, 
+ S1_SafeguardingPersonAtRisk.Ethnicity, 
+ S1_SafeguardingPersonAtRisk.HasCapacityToConsent, 
+ S1_SafeguardingPersonAtRisk.IDOrganisationVisibleTo, 
+ S1_SafeguardingPersonAtRisk.rid, 
+ S1_SafeguardingPersonAtRisk.trid, 
+ S1_SafeguardingPersonAtRisk.IDProfileRecordedBy, 
+ S1_SafeguardingPersonAtRisk.IDSafeguardingCase, 
+ S1_SafeguardingPersonAtRisk.ImcaRequired, 
+ S1_SafeguardingPersonAtRisk.InPublicInterest, 
+ S1_SafeguardingPersonAtRisk.IsAwareOfConcern, 
+ S1_SafeguardingPersonAtRisk.IsImcaProvided, 
+ S1_SafeguardingPersonAtRisk.IsMentalHealth, 
+ S1_SafeguardingPersonAtRisk.KnownToMentalHealthServices, 
+ S1_SafeguardingPersonAtRisk.New, 
+ S1_SafeguardingPersonAtRisk.mrid, 
+ S1_SafeguardingPersonAtRisk.Organisation, 
+ S1_SafeguardingPersonAtRisk.ReasonForRaisingConcern, 
+ S1_SafeguardingPersonAtRisk.Religion, 
+ S1_SafeguardingPersonAtRisk.RiskOfHarmPreventingConsent, 
+ S1_SafeguardingPersonAtRisk.RowIdentifier, 
+ S1_SafeguardingPersonAtRisk._src_hash, 
+ S1_SafeguardingPersonAtRisk.ServiceUserGroup, 
+ S1_SafeguardingPersonAtRisk.Sex, 
+ S1_SafeguardingPersonAtRisk.Sexuality, 
+ S1_SafeguardingPersonAtRisk.TelephoneNumber, 
+ S1_SafeguardingPersonAtRisk.UndueInfluencePreventingConsent, 
+ S1_SafeguardingPersonAtRisk._when_processed_utc"/>
+  </source>
+  <source name="S1_SafeguardingVulnerabilityFactor" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SafeguardingVulnerabilityFactor.csv"/>
+    <property name="delimited.colums" value ="S1_SafeguardingVulnerabilityFactor.CPFTGroup, 
+ S1_SafeguardingVulnerabilityFactor.CPFT_ServiceCode, 
+ S1_SafeguardingVulnerabilityFactor.CPFT_ServiceDescription, 
+ S1_SafeguardingVulnerabilityFactor.CTV3Code, 
+ S1_SafeguardingVulnerabilityFactor.CTV3Text, 
+ S1_SafeguardingVulnerabilityFactor.CYPHS_Safeguarding_Vulnerability_Factor_Type, 
+ S1_SafeguardingVulnerabilityFactor.DateEvent, 
+ S1_SafeguardingVulnerabilityFactor.Directorate, 
+ S1_SafeguardingVulnerabilityFactor.IDDoneBy, 
+ S1_SafeguardingVulnerabilityFactor.IDOrganisation, 
+ S1_SafeguardingVulnerabilityFactor.rid, 
+ S1_SafeguardingVulnerabilityFactor.trid, 
+ S1_SafeguardingVulnerabilityFactor.IDReferralIn, 
+ S1_SafeguardingVulnerabilityFactor.IDTemplate, 
+ S1_SafeguardingVulnerabilityFactor.IsMentalHealth, 
+ S1_SafeguardingVulnerabilityFactor.RowIdentifier, 
+ S1_SafeguardingVulnerabilityFactor._src_hash, 
+ S1_SafeguardingVulnerabilityFactor.SNOMEDCode, 
+ S1_SafeguardingVulnerabilityFactor.SNOMEDText, 
+ S1_SafeguardingVulnerabilityFactor.StaffName, 
+ S1_SafeguardingVulnerabilityFactor.TemplateName, 
+ S1_SafeguardingVulnerabilityFactor.mrid, 
+ S1_SafeguardingVulnerabilityFactor._when_processed_utc"/>
+  </source>
+  <source name="S1_Secondary_Diagnosis" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Secondary_Diagnosis.csv"/>
+    <property name="delimited.colums" value ="S1_Secondary_Diagnosis.CPFTGroup, 
+ S1_Secondary_Diagnosis.CPFT_ServiceCode, 
+ S1_Secondary_Diagnosis.CPFT_ServiceDescription, 
+ S1_Secondary_Diagnosis.CTV3Code, 
+ S1_Secondary_Diagnosis.CTV3Text, 
+ S1_Secondary_Diagnosis.DateEvent, 
+ S1_Secondary_Diagnosis.Directorate, 
+ S1_Secondary_Diagnosis.IDDoneBy, 
+ S1_Secondary_Diagnosis.IDOrganisation, 
+ S1_Secondary_Diagnosis.rid, 
+ S1_Secondary_Diagnosis.trid, 
+ S1_Secondary_Diagnosis.IDReferralIn, 
+ S1_Secondary_Diagnosis.IDTemplate, 
+ S1_Secondary_Diagnosis.IsMentalHealth, 
+ S1_Secondary_Diagnosis.ReferralDate, 
+ S1_Secondary_Diagnosis.ReferralDischargeDate, 
+ S1_Secondary_Diagnosis.RowIdentifier, 
+ S1_Secondary_Diagnosis._src_hash, 
+ S1_Secondary_Diagnosis.SNOMEDCode, 
+ S1_Secondary_Diagnosis.SNOMEDText, 
+ S1_Secondary_Diagnosis.StaffName, 
+ S1_Secondary_Diagnosis.TemplateName, 
+ S1_Secondary_Diagnosis.mrid, 
+ S1_Secondary_Diagnosis._when_processed_utc"/>
+  </source>
+  <source name="S1_SpecialEducationalNeeds" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_SpecialEducationalNeeds.csv"/>
+    <property name="delimited.colums" value ="S1_SpecialEducationalNeeds.CPFTGroup, 
+ S1_SpecialEducationalNeeds.CPFT_ServiceCode, 
+ S1_SpecialEducationalNeeds.CPFT_ServiceDescription, 
+ S1_SpecialEducationalNeeds.CTV3Code, 
+ S1_SpecialEducationalNeeds.CTV3Text, 
+ S1_SpecialEducationalNeeds.CYPHS_Special_Educational_Need_Type, 
+ S1_SpecialEducationalNeeds.DateEvent, 
+ S1_SpecialEducationalNeeds.Directorate, 
+ S1_SpecialEducationalNeeds.IDDoneBy, 
+ S1_SpecialEducationalNeeds.IDOrganisation, 
+ S1_SpecialEducationalNeeds.rid, 
+ S1_SpecialEducationalNeeds.trid, 
+ S1_SpecialEducationalNeeds.IDReferralIn, 
+ S1_SpecialEducationalNeeds.IDTemplate, 
+ S1_SpecialEducationalNeeds.IsMentalHealth, 
+ S1_SpecialEducationalNeeds.RowIdentifier, 
+ S1_SpecialEducationalNeeds._src_hash, 
+ S1_SpecialEducationalNeeds.SNOMEDCode, 
+ S1_SpecialEducationalNeeds.SNOMEDText, 
+ S1_SpecialEducationalNeeds.StaffName, 
+ S1_SpecialEducationalNeeds.TemplateName, 
+ S1_SpecialEducationalNeeds.mrid, 
+ S1_SpecialEducationalNeeds._when_processed_utc"/>
+  </source>
+  <source name="S1_StaffActivity" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_StaffActivity.csv"/>
+    <property name="delimited.colums" value ="S1_StaffActivity.ActivityDescription, 
+ S1_StaffActivity.ActivityType, 
+ S1_StaffActivity.Attendance, 
+ S1_StaffActivity.CPFTActivityTypeDescription, 
+ S1_StaffActivity.CPFTGroup, 
+ S1_StaffActivity.CPFT_ServiceCode, 
+ S1_StaffActivity.CPFT_ServiceDescription, 
+ S1_StaffActivity.CYPHSGroupSessionTypeCode, 
+ S1_StaffActivity.CYPHSGroupSessionTypeDescription, 
+ S1_StaffActivity.CYPHS_Activity_Location_Type_Code, 
+ S1_StaffActivity.CYPHS_Site_Code_Of_Treatment, 
+ S1_StaffActivity.DateActivity, 
+ S1_StaffActivity.DateEventRecorded, 
+ S1_StaffActivity.Directorate, 
+ S1_StaffActivity.FemaleAttendance, 
+ S1_StaffActivity.GroupSequence, 
+ S1_StaffActivity.IDOrganisation, 
+ S1_StaffActivity.IDProfileDoneBy, 
+ S1_StaffActivity.IsGroupSession, 
+ S1_StaffActivity.IsMentalHealth, 
+ S1_StaffActivity.Location, 
+ S1_StaffActivity.LocationDescription, 
+ S1_StaffActivity.MaleAttendance, 
+ S1_StaffActivity.Organisation, 
+ S1_StaffActivity.RowIdentifier, 
+ S1_StaffActivity._src_hash, 
+ S1_StaffActivity.StaffName, 
+ S1_StaffActivity.TimeTaken, 
+ S1_StaffActivity.TotalAttendance, 
+ S1_StaffActivity._when_processed_utc"/>
+  </source>
+  <source name="S1_Team" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Team.csv"/>
+    <property name="delimited.colums" value ="S1_Team.AlternativeServiceCode, 
+ S1_Team.AlternativeServiceDescription, 
+ S1_Team.BenchmarkingCategory_MentalHealth, 
+ S1_Team.BenchmarkingCategory_MentalHealth_SortOrder, 
+ S1_Team.CPFTGroup, 
+ S1_Team.CSDSServiceType, 
+ S1_Team.CSDSServiceTypeDescription, 
+ S1_Team.CostCentre, 
+ S1_Team.CostCentreDesc, 
+ S1_Team.Directorate, 
+ S1_Team.IDOrganisation, 
+ S1_Team.IDParentTeam, 
+ S1_Team.IsIAPTService, 
+ S1_Team.IsMentalHealth, 
+ S1_Team.IsMentalHealthCommunity, 
+ S1_Team.IsMentalHeathDescription, 
+ S1_Team.IsPhysicalHealthCommunity, 
+ S1_Team.IsWard, 
+ S1_Team.MHSDSHospBedTypeDescription, 
+ S1_Team.MHSDSHospBedTypeMH, 
+ S1_Team.MHSDSIntendedClinCareIntenCodeMH, 
+ S1_Team.MHSDSIntendedClinCareIntenDescription, 
+ S1_Team.MHSDSIsLockedWard, 
+ S1_Team.MHSDSPrimReasonReferralMH, 
+ S1_Team.MHSDSPrimReasonReferralMHDescription, 
+ S1_Team.MHSDSTeamTypeCode, 
+ S1_Team.MHSDSTeamTypeDesc, 
+ S1_Team.MHSDSWardAge, 
+ S1_Team.MHSDSWardAgeDescription, 
+ S1_Team.MHSDSWardSecLevel, 
+ S1_Team.MHSDSWardSecLevelDescription, 
+ S1_Team.MHSDSWardSexTypeCode, 
+ S1_Team.MHSDSWardSexTypeDescription, 
+ S1_Team.MHSDSWardType, 
+ S1_Team.MHSDSWardTypeDescription, 
+ S1_Team.Organisation, 
+ S1_Team.ParentTeamName, 
+ S1_Team.RowIdentifier, 
+ S1_Team._src_hash, 
+ S1_Team.SiteCodeOfTreatment, 
+ S1_Team.SiteName, 
+ S1_Team.SiteNameOfBuilding, 
+ S1_Team.SiteNameOfCounty, 
+ S1_Team.SiteNameOfLocality, 
+ S1_Team.SiteNameOfRoad, 
+ S1_Team.SiteNameOfTown, 
+ S1_Team.SiteNumberOfBuilding, 
+ S1_Team.SitePostCode, 
+ S1_Team.SourceSystem, 
+ S1_Team.TeamCreated, 
+ S1_Team.TeamDeleted, 
+ S1_Team.TeamName, 
+ S1_Team.TeamType, 
+ S1_Team.TeamTypeDescription, 
+ S1_Team.WardID, 
+ S1_Team.WardName, 
+ S1_Team._when_processed_utc"/>
+  </source>
+  <source name="S1_TeamMember" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_TeamMember.csv"/>
+    <property name="delimited.colums" value ="S1_TeamMember.IDDoneBy, 
+ S1_TeamMember.IDTeam, 
+ S1_TeamMember.MemberCreated, 
+ S1_TeamMember.MemberDeleted, 
+ S1_TeamMember.New, 
+ S1_TeamMember.RowIdentifier, 
+ S1_TeamMember._src_hash, 
+ S1_TeamMember.StaffName, 
+ S1_TeamMember.TeamName, 
+ S1_TeamMember.TeamStaff, 
+ S1_TeamMember._when_processed_utc"/>
+  </source>
+  <source name="S1_Templates" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Templates.csv"/>
+    <property name="delimited.colums" value ="S1_Templates.CPFTGroup, 
+ S1_Templates.CTV3Code, 
+ S1_Templates.CTV3Text, 
+ S1_Templates.DateEvent, 
+ S1_Templates.DateEventRecorded, 
+ S1_Templates.Directorate, 
+ S1_Templates.IDDoneBy, 
+ S1_Templates.IDEvent, 
+ S1_Templates.IDOrganisation, 
+ S1_Templates.rid, 
+ S1_Templates.trid, 
+ S1_Templates.IDReferralIn, 
+ S1_Templates.IDTemplate, 
+ S1_Templates.IsMentalHealth, 
+ S1_Templates.IsNumeric, 
+ S1_Templates.NumericUnit, 
+ S1_Templates.NumericValue, 
+ S1_Templates.Organisation, 
+ S1_Templates.RowIdentifier, 
+ S1_Templates._src_hash, 
+ S1_Templates.SNOMEDCode, 
+ S1_Templates.SNOMEDText, 
+ S1_Templates.StaffName, 
+ S1_Templates.TemplateName, 
+ S1_Templates.TemplateVersion, 
+ S1_Templates.mrid, 
+ S1_Templates._when_processed_utc"/>
+  </source>
+  <source name="S1_Vanguard" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_Vanguard.csv"/>
+    <property name="delimited.colums" value ="S1_Vanguard.AgeAtReferral, 
+ S1_Vanguard.AlcoholMisuse, 
+ S1_Vanguard.Ambulance, 
+ S1_Vanguard.AssessmentDate, 
+ S1_Vanguard.Autism, 
+ S1_Vanguard.AutismDescription, 
+ S1_Vanguard.BankHolidayIndicator, 
+ S1_Vanguard.CPFTCRHT, 
+ S1_Vanguard.CPFTFRS, 
+ S1_Vanguard.CPFTReferralViaGP, 
+ S1_Vanguard.CPFTSection136Team, 
+ S1_Vanguard.CPFT_ServiceOfferedDescription, 
+ S1_Vanguard.Calendar_date, 
+ S1_Vanguard.Calendar_day, 
+ S1_Vanguard.Calendar_week, 
+ S1_Vanguard.CurrentAge, 
+ S1_Vanguard.DataSource, 
+ S1_Vanguard.DayOfWeek, 
+ S1_Vanguard.Directorate, 
+ S1_Vanguard.DischargeReason, 
+ S1_Vanguard.EmergencyDepartment, 
+ S1_Vanguard.GP, 
+ S1_Vanguard.HourReferral, 
+ S1_Vanguard.IDOrganisationDoneAt, 
+ S1_Vanguard.rid, 
+ S1_Vanguard.trid, 
+ S1_Vanguard.IDReferralIn, 
+ S1_Vanguard.InpatientAdmission, 
+ S1_Vanguard.LD, 
+ S1_Vanguard.LDDescription, 
+ S1_Vanguard.LatestRecord, 
+ S1_Vanguard.LocalAuthority, 
+ S1_Vanguard.MonthYear, 
+ S1_Vanguard.mrid, 
+ S1_Vanguard.NoAsssessmentForm, 
+ S1_Vanguard.NoFurtherFollowUp, 
+ S1_Vanguard.OutOfHours, 
+ S1_Vanguard.Police, 
+ S1_Vanguard.RatingAtEnd, 
+ S1_Vanguard.RatingAtStart, 
+ S1_Vanguard.RatingDescriptionAtEnd, 
+ S1_Vanguard.RatingDescriptionAtStart, 
+ S1_Vanguard.ReferralAcceptedDate, 
+ S1_Vanguard.ReferralNumber, 
+ S1_Vanguard._src_hash, 
+ S1_Vanguard.ReferralSource, 
+ S1_Vanguard.ReferralUrgency, 
+ S1_Vanguard.ReferralUrgencyResponseForm, 
+ S1_Vanguard.ReferralUrgencyResponseFormDescription, 
+ S1_Vanguard.ResultOfAssessment, 
+ S1_Vanguard.Sanctuary, 
+ S1_Vanguard.SubstanceMisuse, 
+ S1_Vanguard.TeamCode, 
+ S1_Vanguard.TeamEndDate, 
+ S1_Vanguard.TeamName, 
+ S1_Vanguard.TeamStartDate, 
+ S1_Vanguard.TeamStartTime, 
+ S1_Vanguard.TotalOutcomes, 
+ S1_Vanguard.TypeOfAssessmentCarriedOut, 
+ S1_Vanguard.UpdatedDate, 
+ S1_Vanguard.VoluntarySector, 
+ S1_Vanguard.WeekEnding, 
+ S1_Vanguard.YearMonth, 
+ S1_Vanguard._when_processed_utc"/>
+  </source>
+  <source name="S1_WaitingList" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_WaitingList.csv"/>
+    <property name="delimited.colums" value ="S1_WaitingList.AdministrativeCategory, 
+ S1_WaitingList.DateAdded, 
+ S1_WaitingList.DateAppointmentEnd, 
+ S1_WaitingList.DateAppointmentStart, 
+ S1_WaitingList.DateDeletedFromWaitingList, 
+ S1_WaitingList.DateDue, 
+ S1_WaitingList.DateWaitCompleted, 
+ S1_WaitingList.DateWaitingStart, 
+ S1_WaitingList.IDClinician, 
+ S1_WaitingList.IDOrganisation, 
+ S1_WaitingList.rid, 
+ S1_WaitingList.trid, 
+ S1_WaitingList.IDReferralIn, 
+ S1_WaitingList.IntendedRTTStatus, 
+ S1_WaitingList.IsMentalHealth, 
+ S1_WaitingList.Organisation, 
+ S1_WaitingList.Priority, 
+ S1_WaitingList.PriorityDescription, 
+ S1_WaitingList.RestrictedToCaseload, 
+ S1_WaitingList.RotaType, 
+ S1_WaitingList.RowIdentifier, 
+ S1_WaitingList._src_hash, 
+ S1_WaitingList.StaffName, 
+ S1_WaitingList.StaffRole, 
+ S1_WaitingList.TargetMaximumWait, 
+ S1_WaitingList.TargetMaximumWaitDays, 
+ S1_WaitingList.TargetMaximumWaitHours, 
+ S1_WaitingList.WaitingListCategory, 
+ S1_WaitingList.WaitingListName, 
+ S1_WaitingList.mrid, 
+ S1_WaitingList._when_processed_utc"/>
+  </source>
+  <source name="S1_WorkingHours" type="delimited">
+    <property name="delimited.dataSourceName" value="CCS"/>
+    <property name="delimited.dataSetTitle" value="synthetic coomunity service (system one) data"/>
+    <property name="delimited.hasHeader" value="true"/>
+    <property name="delimited.separator" value="comma"/>
+    <property name="src.data.dir" location="/micklem/data/syntheticdata/data/ccs"/>
+    <property name="delimited.includes" value="S1_WorkingHours.csv"/>
+    <property name="delimited.colums" value ="S1_WorkingHours.CPFTGroup, 
+ S1_WorkingHours.CTV3Code, 
+ S1_WorkingHours.CTV3Text, 
+ S1_WorkingHours.DateEvent, 
+ S1_WorkingHours.DateEventRecorded, 
+ S1_WorkingHours.Directorate, 
+ S1_WorkingHours.IDDoneBy, 
+ S1_WorkingHours.IDOrganisation, 
+ S1_WorkingHours.rid, 
+ S1_WorkingHours.trid, 
+ S1_WorkingHours.IDReferralIn, 
+ S1_WorkingHours.IDTemplate, 
+ S1_WorkingHours.IsLatest, 
+ S1_WorkingHours.IsMentalHealth, 
+ S1_WorkingHours.MHSDSCode, 
+ S1_WorkingHours.MHSDSWeeklyHoursWorkedDescription, 
+ S1_WorkingHours.mrid, 
+ S1_WorkingHours.Organisation, 
+ S1_WorkingHours.RowIdentifier, 
+ S1_WorkingHours._src_hash, 
+ S1_WorkingHours.RwNo, 
+ S1_WorkingHours.SNOMEDCode, 
+ S1_WorkingHours.SNOMEDText, 
+ S1_WorkingHours.StaffName, 
+ S1_WorkingHours.TemplateName, 
+ S1_WorkingHours.TemplateVersion, 
+ S1_WorkingHours._when_processed_utc"/>
+  </source>
+</sources>
