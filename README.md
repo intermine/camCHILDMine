@@ -13,6 +13,8 @@ RiO Mental Health (2013-2020)    [~ 800 tables]
 
 These databases are described via 3 csv files, one for each database. 
 
+The files can be found in ``extra/db-descr`` directory.
+
 The format of the files is:
 TABLE_NAME,COLUMN_NAME,DATA_TYPE
 
@@ -27,4 +29,4 @@ A small script ``make-loader.sh`` reads the project.xml file and produces a scri
 the model is saved in 
 ``dbmodel/resources/ithrive-camCHILD_additions.xml``
 
-the project file (``ithrive_project.xml``) is saved in the projects directory
+the project file is saved in ``extra/projects/ithrive_project.xml``.
