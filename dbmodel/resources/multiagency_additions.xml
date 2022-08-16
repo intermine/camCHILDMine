@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- camCHILD model to be used to load synth data -->
+
+<classes>
+<!-- rudolf's fake multiagency data -->
+    <class name="Patient" is-interface="true">
+        <attribute name="patientId" type="java.lang.String"/>
+        <attribute name="site" type="java.lang.String"/>
+        <attribute name="ethnicity" type="java.lang.String"/>
+        <attribute name="gender" type="java.lang.String"/>
+        <attribute name="dateOfBirth" type="java.util.Date"/>
+        <attribute name="ageIn22" type="java.lang.Integer"/>
+        <attribute name="indexMultipleDeprivation" type="java.lang.Integer"/>
+        <attribute name="safeguardingAlert" type="java.lang.Integer"/>
+        <attribute name="housingAlert" type="java.lang.Integer"/>
+        <collection name="referrals" referenced-type="Referral"/>
+        <collection name="diagnosises" referenced-type="Diagnosis" reverse-reference="patients"/>
+        <collection name="dataSets" referenced-type="DataSet" reverse-reference="patients"/>
+    </class>
+
+    <class name="DataSet" is-interface="true" term="http://semanticscience.org/resource/SIO_000089">
+        <collection name="patients" referenced-type="Patient" reverse-reference="dataSets"/>
+        <collection name="diagnosises" referenced-type="Diagnosis" reverse-reference="dataSets"/>
+        <collection name="referrals" referenced-type="Referral" reverse-reference="dataSets"/>
+    </class>
+
+    <class name="Diagnosis" is-interface="true">
+        <attribute name="code" type="java.lang.String"/>
+        <attribute name="name" type="java.lang.String"/>
+        <collection name="patients" referenced-type="Patient" reverse-reference="diagnosises"/>
+        <collection name="dataSets" referenced-type="DataSet" reverse-reference="diagnosises"/>
+    </class>
+
+    <class name="Referral" is-interface="true">
+        <attribute name="referralDate" type="java.util.Date"/>
+        <attribute name="teamReferredTo" type="java.lang.String"/>
+        <reference name="patient" referenced-type="Patient"/>
+        <collection name="dataSets" referenced-type="DataSet" reverse-reference="referrals"/>
+    </class>
+
+</classes>
